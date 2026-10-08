@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-07T19:31:10+02:00",
+ "updated": "2026-10-08T21:15:40+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5666,8 +5666,8 @@
    "width": 1280,
    "height": 800,
    "zip": "templates_peppy_spectrum/1280/800/1280x800_south_park_room.zip",
-   "bytes": 2149362,
-   "sha256": "c98ad0f76120507864d95f21f9ed9503d0a4004a35160ec7d6e5b082d23165c2",
+   "bytes": 2186352,
+   "sha256": "091efd6308254a1179ca4b110ca044070633a50b49c7a6730c7fb085d0d02e5f",
    "units": [
     {
      "kind": "meter",
@@ -5964,8 +5964,8 @@
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_CdTouch.zip",
-   "bytes": 32345816,
-   "sha256": "b98e9e49fd9fff089b834eaec9b9b5c0bc4b6b42fa7307dc51a653154f9a9d41",
+   "bytes": 32350065,
+   "sha256": "e55ab442784fd0f7f4c268de5dea81822bddd22725b182c4d73673461f1bd480",
    "units": [
     {
      "kind": "meter",
