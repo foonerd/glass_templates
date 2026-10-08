@@ -73,6 +73,43 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1920x1080_g5_CdTouch
+
+![1920x1080_g5_CdTouch](previews/1920x1080_g5_CdTouch.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (9 templates) |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 650G5_McIntoshCD Touch
+- 651G5_KenwoodCD Touch
+- 652G5_Kenwood Ver_Touch
+- 653G5_FreeCD Touch
+- 654G5_VertereCD Touch
+- 655G5_Mion_Touch
+- 656G5_ShanlingCD Touch
+- 657G5_LG_Thinkya Touch
+- 658G5_Syitren Touch
+
+**Download:** [1920x1080_g5_CdTouch.zip](1920x1080_g5_CdTouch.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1920x1080_g5_TurnTouch
 
 ![1920x1080_g5_TurnTouch](previews/1920x1080_g5_TurnTouch.png)

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-07T17:20:13+02:00",
+ "updated": "2026-10-07T19:31:10+02:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5956,6 +5956,54 @@
    ],
    "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_721_ms.png",
    "thumb": "catalog/thumbs/1920x1080_g5_721_ms.jpg"
+  },
+  {
+   "name": "1920x1080_g5_CdTouch",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_CdTouch.zip",
+   "bytes": 32345816,
+   "sha256": "b98e9e49fd9fff089b834eaec9b9b5c0bc4b6b42fa7307dc51a653154f9a9d41",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_g5_CdTouch/templates/1920x1080_g5_CdTouch/",
+     "folder": "1920x1080_g5_CdTouch",
+     "names": [
+      "650G5_McIntoshCD Touch",
+      "651G5_KenwoodCD Touch",
+      "652G5_Kenwood Ver_Touch",
+      "653G5_FreeCD Touch",
+      "654G5_VertereCD Touch",
+      "655G5_Mion_Touch",
+      "656G5_ShanlingCD Touch",
+      "657G5_LG_Thinkya Touch",
+      "658G5_Syitren Touch"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_g5_CdTouch/templates_spectrum/1920x1080_g5_CdTouch/",
+     "folder": "1920x1080_g5_CdTouch",
+     "names": [
+      "MCIN1",
+      "MCIN2",
+      "MCIN3",
+      "MCIN4",
+      "MCIN5",
+      "MCIN6",
+      "MCIN7",
+      "MCIN8",
+      "MCIN9"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_CdTouch.png",
+   "thumb": "catalog/thumbs/1920x1080_g5_CdTouch.jpg"
   },
   {
    "name": "1920x1080_g5_TurnTouch",
