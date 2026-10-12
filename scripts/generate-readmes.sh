@@ -5,8 +5,8 @@
 
 set -e
 
-REPO_URL="https://github.com/foonerd/peppy_templates"
-RAW_URL="https://raw.githubusercontent.com/foonerd/peppy_templates/main"
+REPO_URL="https://github.com/foonerd/glass_templates"
+RAW_URL="https://raw.githubusercontent.com/foonerd/glass_templates/main"
 ASSETS_DIR="assets"
 NO_PREVIEW="no-preview.svg"
 
@@ -294,31 +294,33 @@ get_meter_info() {
     case "$field" in
         "name")
             # Get ALL section names for packs
-            local count=$(echo "$config_content" | grep -c '^\[' || echo 0)
+            local count
+            count=$(grep -c '^\[' <<< "$config_content" 2>/dev/null) || count=0
+            count=${count:-0}
             
             if [[ "$count" -gt 1 ]]; then
                 # Pack with multiple templates - list all with bullets
-                echo "$config_content" | grep '^\[' | tr -d '[]' | sed 's/^/- /'
+                grep '^\[' <<< "$config_content" | tr -d '[]' | sed 's/^/- /'
             elif [[ "$count" -eq 1 ]]; then
                 # Single template
-                echo "$config_content" | grep '^\[' | tr -d '[]' | xargs
+                grep '^\[' <<< "$config_content" | tr -d '[]' | xargs
             else
                 echo ""
             fi
             ;;
         "count")
-            # Return number of templates in pack
-            echo "$config_content" | grep -c '^\[' || echo 0
+            # Return number of templates in pack (grep -c prints 0 even when exit status is 1)
+            grep -c '^\[' <<< "$config_content" 2>/dev/null
             ;;
         "type")
             if [[ "$config_type" == "spectrum" ]]; then
                 echo "spectrum"
             else
-                echo "$config_content" | grep -m1 'meter.type' | cut -d'=' -f2 | tr -d ' ' | xargs
+                grep -m1 'meter.type' <<< "$config_content" | cut -d'=' -f2 | tr -d ' ' | xargs
             fi
             ;;
         "extended")
-            if echo "$config_content" | grep -qi 'config.extend.*=.*true'; then
+            if grep -qi 'config.extend.*=.*true' <<< "$config_content"; then
                 echo "Yes"
             else
                 echo "No"
@@ -327,8 +329,9 @@ get_meter_info() {
         "spectrum")
             if [[ "$config_type" == "spectrum" ]]; then
                 echo "Yes"
-            elif echo "$config_content" | grep -qi 'spectrum.*='; then
-                local spec_val=$(echo "$config_content" | grep -i 'spectrum' | grep -v '^#' | head -1 | cut -d'=' -f2 | tr -d ' ')
+            elif grep -qi 'spectrum.*=' <<< "$config_content"; then
+                local spec_val
+                spec_val=$(grep -i 'spectrum' <<< "$config_content" | grep -v '^#' | head -1 | cut -d'=' -f2 | tr -d ' ')
                 if [[ -n "$spec_val" && "$spec_val" != "none" && "$spec_val" != "None" ]]; then
                     echo "Yes"
                 else
@@ -339,11 +342,35 @@ get_meter_info() {
             fi
             ;;
         "albumart")
-            if echo "$config_content" | grep -qi 'albumart.pos'; then
+            if grep -qi 'albumart.pos' <<< "$config_content"; then
                 echo "Yes"
             else
                 echo "No"
             fi
+            ;;
+        "glassonly")
+            # What only Glass draws: the spectrum analyser (a section with a
+            # style), interactive buttons, the volume as a number, the type
+            # icon's label, pictures that cover their box. A template using
+            # the pages name them as Glass features.
+            local spectrum_content
+            spectrum_content=$( (unzip -p "$zip_file" "*/spectrum.txt" 2>/dev/null; unzip -p "$zip_file" "spectrum.txt" 2>/dev/null) | tr -d '\r' || true)
+            local meters_content
+            meters_content=$( (unzip -p "$zip_file" "*/meters.txt" 2>/dev/null; unzip -p "$zip_file" "meters.txt" 2>/dev/null) | tr -d '\r' || true)
+            local why=""
+            if grep -qiE '^[[:space:]]*style[[:space:]]*=' <<< "$spectrum_content"; then
+                why="the spectrum analyser"
+            fi
+            if grep -qiE '^[[:space:]]*button\.' <<< "$meters_content"; then
+                why="${why:+$why, }interactive buttons"
+            fi
+            if grep -qiE '^[[:space:]]*(volume\.value\.|playinfo\.type\.label|touch\.margin|interactive[[:space:]]*=)' <<< "$meters_content"; then
+                why="${why:+$why, }Glass-only meter keys"
+            fi
+            if grep -qiE '^[[:space:]]*[a-z0-9.]*scale[[:space:]]*=[[:space:]]*cover' <<< "$meters_content"; then
+                why="${why:+$why, }pictures that cover their box"
+            fi
+            echo "$why"
             ;;
     esac
 }
@@ -365,7 +392,7 @@ EOF
     # Add category description
     case "$category" in
         "template_peppy")
-            echo "VU Meter templates for PeppyMeter Screensaver." >> "$dir/README.md"
+            echo "Meter themes." >> "$dir/README.md"
             ;;
         "templates_peppy_spectrum")
             echo "Combined VU Meter + Spectrum templates (self-contained with both parts)." >> "$dir/README.md"
@@ -398,6 +425,7 @@ EOF
         local has_extended=$(get_meter_info "$zip_file" "extended")
         local has_spectrum=$(get_meter_info "$zip_file" "spectrum")
         local has_albumart=$(get_meter_info "$zip_file" "albumart")
+        local glass_only=$(get_meter_info "$zip_file" "glassonly")
         
         # Determine if this is a pack
         local is_pack="No"
@@ -455,7 +483,7 @@ EOF
         local this_label=""
         case "$category" in
             "template_peppy")
-                this_install_info="Extract and copy folder to \`/data/INTERNAL/peppy_screensaver/templates/\`"
+                this_install_info="Extract and copy the folder to \`/data/INTERNAL/glass/templates/\`"
                 this_label="VU Meter"
                 ;;
             "templates_peppy_spectrum")
@@ -463,7 +491,7 @@ EOF
                 this_label="VU Meter + Spectrum (combined)"
                 ;;
             "templates_spectrum")
-                this_install_info="Extract and copy folder to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\`"
+                this_install_info="Extract and copy the folder to \`/data/INTERNAL/glass/templates_spectrum/\`"
                 this_label="Spectrum"
                 ;;
         esac
@@ -479,7 +507,7 @@ EOF
 **Complete Set (both required):**
 
 - ${this_label}: [${template_name}.zip](${template_name}.zip)
-  - Extract and copy folder to \`/data/INTERNAL/peppy_screensaver/templates/\`
+  - Extract and copy the folder to \`/data/INTERNAL/glass/templates/\`
 EOF
             echo "$companions" | while IFS='|' read -r comp_category comp_name; do
                 [[ -z "$comp_category" ]] && continue
@@ -488,11 +516,11 @@ EOF
                 case "$comp_category" in
                     "template_peppy")
                         comp_label="VU Meter"
-                        comp_install="Extract and copy folder to \`/data/INTERNAL/peppy_screensaver/templates/\`"
+                        comp_install="Extract and copy the folder to \`/data/INTERNAL/glass/templates/\`"
                         ;;
                     "templates_spectrum")
                         comp_label="Spectrum"
-                        comp_install="Extract and copy folder to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\`"
+                        comp_install="Extract and copy the folder to \`/data/INTERNAL/glass/templates_spectrum/\`"
                         ;;
                 esac
                 local comp_path="${comp_category}/${res_path}/${comp_name}.zip"
@@ -501,18 +529,33 @@ EOF
             done
             echo "" >> "$dir/README.md"
         elif [[ "$this_install_info" == "BOTH_PARTS" ]]; then
-            # Combined template - show both install steps
+            # Combined template - show both install steps, or Glass alone
+            # when the template uses what only Glass draws.
             cat >> "$dir/README.md" << EOF
 **Download:** [${template_name}.zip](${template_name}.zip)
 
+EOF
+            if [[ -n "$glass_only" ]]; then
+                cat >> "$dir/README.md" << EOF
+**Uses ${glass_only}.**
+
+EOF
+            fi
+            cat >> "$dir/README.md" << EOF
 **Install (both required):**
 1. Extract the zip file
-2. Copy \`templates/\` contents to \`/data/INTERNAL/peppy_screensaver/templates/\`
-3. Copy \`templates_spectrum/\` contents to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\`
+2. Copy \`templates/\` contents to \`/data/INTERNAL/glass/templates/\`
+3. Copy \`templates_spectrum/\` contents to \`/data/INTERNAL/glass/templates_spectrum/\`
+
+Or press Install on the Catalog tab of the Glass Manager.
 
 EOF
         else
-            # No companions - single download
+            # No companions - single download; Glass alone when the
+            # template uses what only Glass draws.
+            if [[ -n "$glass_only" ]]; then
+                this_install_info="Uses ${glass_only}. ${this_install_info}"
+            fi
             cat >> "$dir/README.md" << EOF
 **Download:** [${template_name}.zip](${template_name}.zip)
 
@@ -535,11 +578,11 @@ EOF
 
 1. Download the desired template zip(s)
 2. Extract each to the path shown next to its download link
-3. Select in plugin settings
+3. Choose it on the Themes tab of the Glass Manager
 
 ---
 
-*Part of [PeppyMeter Templates](${REPO_URL})*
+*Part of the [Glass theme collection](${REPO_URL})*
 EOF
 
     echo "Generated: $dir/README.md"
@@ -584,7 +627,7 @@ generate_catalog() {
     
     # Generate index README
     cat > catalog/README.md << 'EOF'
-# PeppyMeter Template Catalog
+# Glass Theme Catalog
 
 Browse templates by screen resolution.
 
@@ -608,7 +651,7 @@ EOF
 
 ## Installation Instructions
 
-All paths are relative to `/data/INTERNAL/peppy_screensaver/`
+The Catalog tab of the Glass Manager installs any theme with one press. By hand, the paths are under `/data/INTERNAL/glass/`.
 
 ### VU Meter Only (from template_peppy)
 
@@ -620,7 +663,7 @@ All paths are relative to `/data/INTERNAL/peppy_screensaver/`
 ```
 Download: 800x480_retro_wood.zip
 Extract:  800x480_retro_wood/
-Copy to:  /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/
+Copy to:  /data/INTERNAL/glass/templates/800x480_retro_wood/
 ```
 
 ### Spectrum Only (from templates_spectrum)
@@ -633,7 +676,7 @@ Copy to:  /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/
 ```
 Download: 800x480_retro_wood.zip
 Extract:  800x480_retro_wood/
-Copy to:  /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/
+Copy to:  /data/INTERNAL/glass/templates_spectrum/800x480_retro_wood/
 ```
 
 ### Combined VU + Spectrum (from templates_peppy_spectrum)
@@ -651,13 +694,13 @@ Extract:  800x480_retro_wood/
 Inside:   800x480_retro_wood/templates/800x480_retro_wood/
           800x480_retro_wood/templates_spectrum/800x480_retro_wood/
 
-Copy to:  /data/INTERNAL/peppy_screensaver/templates/800x480_retro_wood/
-          /data/INTERNAL/peppy_screensaver/templates_spectrum/800x480_retro_wood/
+Copy to:  /data/INTERNAL/glass/templates/800x480_retro_wood/
+          /data/INTERNAL/glass/templates_spectrum/800x480_retro_wood/
 ```
 
 ---
 
-*Auto-generated by [PeppyMeter Templates](https://github.com/foonerd/peppy_templates)*
+*Generated for the [Glass theme collection](https://github.com/foonerd/glass_templates)*
 EOF
 
     echo "Generated: catalog/README.md"
@@ -700,11 +743,11 @@ EOF
         case "$category" in
             "template_peppy")
                 type_badge="VU Meter"
-                install_info="Extract and copy folder to \`/data/INTERNAL/peppy_screensaver/templates/\`"
+                install_info="Extract and copy the folder to \`/data/INTERNAL/glass/templates/\`"
                 ;;
             "templates_spectrum")
                 type_badge="Spectrum"
-                install_info="Extract and copy folder to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\`"
+                install_info="Extract and copy the folder to \`/data/INTERNAL/glass/templates_spectrum/\`"
                 ;;
             "templates_peppy_spectrum")
                 type_badge="Combined"
@@ -716,6 +759,7 @@ EOF
         local meter_name=$(get_meter_info "$zip_file" "name")
         local meter_count=$(get_meter_info "$zip_file" "count")
         local meter_type=$(get_meter_info "$zip_file" "type")
+        local glass_only=$(get_meter_info "$zip_file" "glassonly")
         
         # Check if preview exists in category folder
         local preview_path=""
@@ -759,16 +803,28 @@ EOF
 
 EOF
 
-        # Show install instructions based on type
+        # Show install instructions based on type, Glass alone when the
+        # template uses what only Glass draws.
+        if [[ -n "$glass_only" ]]; then
+            cat >> "catalog/${res}.md" << EOF
+**Uses ${glass_only}.**
+
+EOF
+        fi
         if [[ "$install_info" == "BOTH_PARTS" ]]; then
             cat >> "catalog/${res}.md" << EOF
 **Install (both required):**
 1. Extract the zip file
-2. Copy \`templates/${template_name}/\` to \`/data/INTERNAL/peppy_screensaver/templates/\`
-3. Copy \`templates_spectrum/${template_name}/\` to \`/data/INTERNAL/peppy_screensaver/templates_spectrum/\`
+2. Copy \`templates/${template_name}/\` to \`/data/INTERNAL/glass/templates/\`
+3. Copy \`templates_spectrum/${template_name}/\` to \`/data/INTERNAL/glass/templates_spectrum/\`
+
+Or press Install on the Catalog tab of the Glass Manager.
 
 EOF
         else
+            if [[ -n "$glass_only" ]]; then
+                install_info="Uses ${glass_only}. ${install_info}"
+            fi
             cat >> "catalog/${res}.md" << EOF
 **Install:** ${install_info}
 
@@ -789,7 +845,7 @@ EOF
 normalize_templates
 
 echo "========================================"
-echo "PeppyMeter Template README Generator"
+echo "Glass theme collection page generator"
 echo "========================================"
 echo ""
 

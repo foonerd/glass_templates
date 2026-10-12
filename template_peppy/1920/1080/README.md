@@ -1,24 +1,6 @@
 # 1080 Templates
 
-VU Meter templates for PeppyMeter Screensaver.
-
----
-
-## 1920x1080_140g5_casette_780
-
-![1920x1080_140g5_casette_780](previews/1920x1080_140g5_casette_780.png)
-
-| Property | Value |
-|----------|-------|
-| Meter Name | 140G5_Full_Cassette_Rotary |
-| Meter Type | linear |
-| Extended Config | Yes |
-| Spectrum | No |
-| Album Art | Yes |
-
-**Download:** [1920x1080_140g5_casette_780.zip](1920x1080_140g5_casette_780.zip)
-
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+Meter themes.
 
 ---
 
@@ -59,7 +41,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1920x1080_g5_701_meters.zip](1920x1080_g5_701_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -100,7 +82,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1920x1080_g5_702_meters.zip](1920x1080_g5_702_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -133,7 +115,7 @@ VU Meter templates for PeppyMeter Screensaver.
 - 53G5_Yamaha DJ
 - 54G5_Vincent
 - 55G5_SKS12 Vertical
-- 56G5_Full Cassette
+- 56G5_Free
 - 57G5_Teac Cassette
 - 58G5_Burmaster
 - 59G5_Fire Rock
@@ -141,7 +123,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1920x1080_g5_703_meters.zip](1920x1080_g5_703_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -182,7 +164,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1920x1080_g5_704_meters.zip](1920x1080_g5_704_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -223,7 +205,381 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1920x1080_g5_705_meters.zip](1920x1080_g5_705_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
+
+---
+
+## 1920x1080_g5_710_Turntables
+
+![1920x1080_g5_710_Turntables](previews/1920x1080_g5_710_Turntables.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (48 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 141G5_01_Vertere Turn
+- 141G5_02_Vertere Turn
+- 141G5_03_Vertere Turn
+- 142G5_01_Pioneer Gold
+- 142G5_02_Pioneer Gold
+- 142G5_03_Pioneer Gold
+- 143G5_TURN Vinyl Black
+- 144G5_01_Naim Turntable
+- 144G5_02_Naim Turntable
+- 144G5_03_Naim Turntable
+- 145G5_01_McIntosh MTI100
+- 145G5_02_McIntosh MTI100
+- 145G5_03_McIntosh MTI100
+- 146G5_01_Denon DP62
+- 146G5_02_Denon DP62
+- 146G5_03_Denon DP62
+- 147G5_01_Denon DP400
+- 147G5_02_Denon DP400
+- 147G5_03_Denon DP400
+- 148G5_01_Reloop RL7000
+- 148G5_02_Reloop RL7000
+- 148G5_03_Reloop RL7000
+- 149G5_01_Thorens
+- 149G5_02_Thorens
+- 149G5_03_Thorens
+- 150G5_02_AMG Turntable
+- 150G5_03_AMG Turntable
+- 151G5_01_Technics Silver
+- 151G5_02_Technics Silver
+- 151G5_03_Technics Silver
+- 190G5_03_Grandioso
+- 191G5_01_Crosley Turntable
+- 191G5_02_Crosley Turntable
+- 191G5_03_Crosley Turntable
+- 192G5_01_Korg Handy
+- 192G5_02_Korg Handy
+- 192G5_03_Korg Handy
+- 193G5_01_TechDas
+- 193G5_02_TechDas
+- 193G5_03_TechDas
+- 194G5_02_PioneerNew
+- 194G5_03_PioneerNew
+- 195G5_01_Gramovox
+- 195G5_02_Gramovox
+- 195G5_03_Gramovox
+- 196G5_01_SME60
+- 196G5_02_SME60
+- 196G5_03_SME60
+
+**Download:** [1920x1080_g5_710_Turntables.zip](1920x1080_g5_710_Turntables.zip)
+
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
+
+---
+
+## 1920x1080_g5_711_Tape_Recorder
+
+![1920x1080_g5_711_Tape_Recorder](previews/1920x1080_g5_711_Tape_Recorder.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (20 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 151G5_Akai77 black
+- 152G5_Akai77_silver
+- 153G5_Studer A810
+- 154G5_PioneerRT707_silver
+- 155G5_Antelope Reel
+- 156G5_Otari Reel
+- 157G5_Revox B77
+- 158G5_Tascam Rec
+- 159G5_Technics Rec
+- 159G5_Metaxas Rec
+- 210G5_Sony TC730
+- 211G5_Akai GX635
+- 212G5_TapeAK
+- 213G5_Fostex Rec
+- 214G5_TapeAMP
+- 215G5_Koncert M3401
+- 216G5_Akai PRO1000
+- 217G5_MION24
+- 218G5_Teac X2000
+- 219G5_Tandberg OLD
+
+**Download:** [1920x1080_g5_711_Tape_Recorder.zip](1920x1080_g5_711_Tape_Recorder.zip)
+
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
+
+---
+
+## 1920x1080_g5_712_Cassette
+
+![1920x1080_g5_712_Cassette](previews/1920x1080_g5_712_Cassette.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (15 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 161G5_Pioneer Cassette
+- 162G5_TDK cassette
+- 163G5_TEAC cassette
+- 164G5_Maxell Cassette
+- 165G5_BASF Free
+- 166G5_Cassette_Circular
+- 167G5_Cassette_Linear
+- 168G5_Philips Cassette
+- 169G5_Denon DR650
+- 170G5_SonyK770 cassette
+- 240G5_MION24C
+- 241G5_Kenwood cassette
+- 242G5_Sharp
+- 243G5_Sansui Cassette
+- 244G5_Pioneer CT_F1250
+
+**Download:** [1920x1080_g5_712_Cassette.zip](1920x1080_g5_712_Cassette.zip)
+
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
+
+---
+
+## 1920x1080_g5_713_CD
+
+![1920x1080_g5_713_CD](previews/1920x1080_g5_713_CD.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (16 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 171G5_Sony557 Full
+- 172G5_Sony557 Cust
+- 173G5_CD Player Full
+- 174G5_CD Player Cust
+- 175G5_Emerson Full
+- 176G5_Emerson Cust
+- 177G5_Dunu Cust
+- 178G5_Thinkya Cust
+- 179G5_Shanling Cust
+- 180G5_Syitren Cust
+- 260G5_CD Black
+- 261G5_CD HOTT
+- 262G5_Jadis
+- 262G5_02_Jadis
+- 263G5_Emerson MS3
+- 263G5_02_Emerson MS3
+
+**Download:** [1920x1080_g5_713_CD.zip](1920x1080_g5_713_CD.zip)
+
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
+
+---
+
+## 1920x1080_g5_FanarTurntable
+
+![1920x1080_g5_FanarTurntable](previews/1920x1080_g5_FanarTurntable.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (12 templates) |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 350G5_Denon DP62 Fanart
+- 351G5_Denon DP400 Fanart
+- 352G5_Pioneer Gold Fanart
+- 353G5_Technics Silver Fanart
+- 354G5_Thorens Fanart
+- 355G5_Grandioso Fanart
+- 356G5_Vertere Fanart
+- 357G5_McIntosh MTI100 Fanart
+- 358G5_Naim Turn Fanart
+- 359G5_Turn Black_Fanart
+- 360G5_Turn Big Fanart
+- 361G5_Turn Big Fanart
+
+**Download:** [1920x1080_g5_FanarTurntable.zip](1920x1080_g5_FanarTurntable.zip)
+
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
+
+---
+
+## 1920x1080_g5_FanartCD
+
+![1920x1080_g5_FanartCD](previews/1920x1080_g5_FanartCD.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (12 templates) |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 300G5_Shanling Fanart
+- 301G5_Kenwood Fanart
+- 302G5_McIntosh Fanart
+- 303G5_Vertere Fanart
+- 304G5_Kenwood Ver_Fanart
+- 305G5_LG_Syitren Fanart
+- 306G5_LG_Thinkya Fanart
+- 307G5_FreeCD Fanart
+- 308G5_ONLY Fanart
+- 309G5_Mion_Fanart
+- 310G5_CD Big Fanart
+- 311G5_CD2 Big Fanart
+
+**Download:** [1920x1080_g5_FanartCD.zip](1920x1080_g5_FanartCD.zip)
+
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
+
+---
+
+## 1920x1080_g5_FanartCass
+
+![1920x1080_g5_FanartCass](previews/1920x1080_g5_FanartCass.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (12 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 370G5_Cassette_Lin Fanart
+- 371G5_TEAC cass Fanart
+- 372G5_Maxell Cass Fanart
+- 373G5_BASF Free Fanart
+- 374G5_Denon Cass Fanart
+- 375G5_SonyK770 cass Fanart
+- 376G5_MION24C Fanart
+- 377G5_Kenwood cass Fanart
+- 378G5_Sharp Cass Fanart
+- 379G5_Sansui Cass Fanart
+- 380G5_TDK Big Fanart
+- 381G5_Maxell Big Fanart
+
+**Download:** [1920x1080_g5_FanartCass.zip](1920x1080_g5_FanartCass.zip)
+
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
+
+---
+
+## 1920x1080_g5_FanartTape
+
+![1920x1080_g5_FanartTape](previews/1920x1080_g5_FanartTape.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (16 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 400G5_Akai77 black
+- 401G5_Akai77_silver
+- 402G5_Studer A810
+- 403G5_PioneerRT707_silver
+- 404G5_Antelope Reel
+- 405G5_Otari Reel
+- 406G5_Revox B77
+- 407G5_Tascam Rec
+- 408G5_Technics Rec
+- 409G5_Metaxas Rec
+- 410G5_Sony TC730
+- 411G5_Akai GX635
+- 412G5_TapeAK
+- 413G5_Koncert M3401
+- 414G5_MION24
+- 415G5_Teac X2000
+
+**Download:** [1920x1080_g5_FanartTape.zip](1920x1080_g5_FanartTape.zip)
+
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
+
+---
+
+## 1920x1080_g5_RADIO
+
+![1920x1080_g5_RADIO](previews/1920x1080_g5_RADIO.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (16 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 500G5_Meier
+- 501G5_McIntosh FM
+- 502G5_Retro
+- 503G5_Albrecht
+- 504G5_Marantz FM
+- 505G5_Technisat
+- 506G5_Audizio FM
+- 507G5_Teufel
+- 508G5_Hyundai
+- 509G5_Technisat Silver
+- 510G5_Blaupunkt FM
+- 511G5_Pure DAB
+- 512G5_Imperial YT
+- 513G5_Roadstar
+- 514G5_Auna FM
+- 515G5_Denver
+
+**Download:** [1920x1080_g5_RADIO.zip](1920x1080_g5_RADIO.zip)
+
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
+
+---
+
+## 1920x1080_reel_tape
+
+![1920x1080_reel_tape](previews/1920x1080_reel_tape.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1920x1080_ReelTape |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Download:** [1920x1080_reel_tape.zip](1920x1080_reel_tape.zip)
+
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -232,8 +588,8 @@ VU Meter templates for PeppyMeter Screensaver.
 
 1. Download the desired template zip(s)
 2. Extract each to the path shown next to its download link
-3. Select in plugin settings
+3. Choose it on the Themes tab of the Glass Manager
 
 ---
 
-*Part of [PeppyMeter Templates](https://github.com/foonerd/peppy_templates)*
+*Part of the [Glass theme collection](https://github.com/foonerd/glass_templates)*

@@ -43,8 +43,144 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 **Install (both required):**
 1. Extract the zip file
-2. Copy `templates/` contents to `/data/INTERNAL/peppy_screensaver/templates/`
-3. Copy `templates_spectrum/` contents to `/data/INTERNAL/peppy_screensaver/templates_spectrum/`
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1920x1080_g5_721_ms
+
+![1920x1080_g5_721_ms](previews/1920x1080_g5_721_ms.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 121G5_Pioneer S+M |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1920x1080_g5_721_ms.zip](1920x1080_g5_721_ms.zip)
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1920x1080_g5_CdTouch
+
+![1920x1080_g5_CdTouch](previews/1920x1080_g5_CdTouch.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (9 templates) |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 650G5_McIntoshCD Touch
+- 651G5_KenwoodCD Touch
+- 652G5_Kenwood Ver_Touch
+- 653G5_FreeCD Touch
+- 654G5_VertereCD Touch
+- 655G5_Mion_Touch
+- 656G5_ShanlingCD Touch
+- 657G5_LG_Thinkya Touch
+- 658G5_Syitren Touch
+
+**Download:** [1920x1080_g5_CdTouch.zip](1920x1080_g5_CdTouch.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1920x1080_g5_TapeTouch
+
+![1920x1080_g5_TapeTouch](previews/1920x1080_g5_TapeTouch.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (9 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 700G5_Akai77black Touch
+- 701G5_Akai77_silver To
+- 702G5_Antelope Touch
+- 703G5_Otari Touchl
+- 704G5_PioneerRT707_Touch
+- 705G5_Tascam Touch
+- 706G5_RevoxB77 Touch
+- 707G5_SonyTC730 Touch
+- 708G5_MION24 Touch
+
+**Download:** [1920x1080_g5_TapeTouch.zip](1920x1080_g5_TapeTouch.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1920x1080_g5_TurnTouch
+
+![1920x1080_g5_TurnTouch](previews/1920x1080_g5_TurnTouch.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (9 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 600G5_Grandioso Touch
+- 601G5_Denon DP400 Touch
+- 602G5_Pioneer Gold Touch
+- 603G5_Vertere Touch
+- 604G5_McIntosh MTI100 Touch
+- 605G5_Technics Silver Touch
+- 606G5_Naim Turn Touch
+- 607G5_Thorens Touch
+- 608G5_DenonDP62 Touch
+
+**Download:** [1920x1080_g5_TurnTouch.zip](1920x1080_g5_TurnTouch.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
@@ -53,8 +189,8 @@ Combined VU Meter + Spectrum templates (self-contained with both parts).
 
 1. Download the desired template zip(s)
 2. Extract each to the path shown next to its download link
-3. Select in plugin settings
+3. Choose it on the Themes tab of the Glass Manager
 
 ---
 
-*Part of [PeppyMeter Templates](https://github.com/foonerd/peppy_templates)*
+*Part of the [Glass theme collection](https://github.com/foonerd/glass_templates)*

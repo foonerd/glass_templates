@@ -1,6 +1,6 @@
 # 2160 Templates
 
-VU Meter templates for PeppyMeter Screensaver.
+Meter themes.
 
 ---
 
@@ -18,7 +18,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [3840x2160_140g5_casette_780.zip](3840x2160_140g5_casette_780.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -27,8 +27,8 @@ VU Meter templates for PeppyMeter Screensaver.
 
 1. Download the desired template zip(s)
 2. Extract each to the path shown next to its download link
-3. Select in plugin settings
+3. Choose it on the Themes tab of the Glass Manager
 
 ---
 
-*Part of [PeppyMeter Templates](https://github.com/foonerd/peppy_templates)*
+*Part of the [Glass theme collection](https://github.com/foonerd/glass_templates)*

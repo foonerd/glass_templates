@@ -1,6 +1,6 @@
 # 800 Templates
 
-VU Meter templates for PeppyMeter Screensaver.
+Meter themes.
 
 ---
 
@@ -18,7 +18,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x800_dagostino_pendulum.zip](1280x800_dagostino_pendulum.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -36,7 +36,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x800_dan_dagostimo_momentum_c2.zip](1280x800_dan_dagostimo_momentum_c2.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -54,7 +54,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x800_esoteric-grandioso-t1.zip](1280x800_esoteric-grandioso-t1.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -95,7 +95,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x800_g5_420_meters.zip](1280x800_g5_420_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -136,7 +136,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x800_g5_421_meters.zip](1280x800_g5_421_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -177,7 +177,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x800_g5_422_meters.zip](1280x800_g5_422_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -208,7 +208,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x800_g5_423_meters.zip](1280x800_g5_423_meters.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -226,7 +226,35 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x800_naim_set.zip](1280x800_naim_set.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
+
+---
+
+## 1280x800_t1800_pack7
+
+![1280x800_t1800_pack7](previews/1280x800_t1800_pack7.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (7 templates) |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | No |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- t1800_tubes
+- t1800_Fisher
+- t1800_Tascam
+- t1800_TubeHeadPhone
+- t1800_Sansui9090
+- t1800_ReelTape
+- t1800_StarWars
+
+**Download:** [1280x800_t1800_pack7.zip](1280x800_t1800_pack7.zip)
+
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -244,7 +272,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x800_vertical_blue.zip](1280x800_vertical_blue.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -262,7 +290,7 @@ VU Meter templates for PeppyMeter Screensaver.
 
 **Download:** [1280x800_volumio-HW.zip](1280x800_volumio-HW.zip)
 
-**Install:** Extract and copy folder to `/data/INTERNAL/peppy_screensaver/templates/`
+**Install:** Extract and copy the folder to `/data/INTERNAL/glass/templates/`
 
 ---
 
@@ -271,8 +299,8 @@ VU Meter templates for PeppyMeter Screensaver.
 
 1. Download the desired template zip(s)
 2. Extract each to the path shown next to its download link
-3. Select in plugin settings
+3. Choose it on the Themes tab of the Glass Manager
 
 ---
 
-*Part of [PeppyMeter Templates](https://github.com/foonerd/peppy_templates)*
+*Part of the [Glass theme collection](https://github.com/foonerd/glass_templates)*
