@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-31T16:10:36+01:00",
+ "updated": "2026-10-31T17:56:26+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6260,96 +6260,6 @@
    "thumb": "catalog/thumbs/1920x1080_g5_721_ms.jpg"
   },
   {
-   "name": "1920x1080_g5_CassetteTouch",
-   "category": "templates_peppy_spectrum",
-   "kind": "meter+spectrum",
-   "width": 1920,
-   "height": 1080,
-   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_CassetteTouch.zip",
-   "bytes": 20001604,
-   "sha256": "9db39147349ba21b150e035f9cc9f17812db0d14f541d0de88f6c9f1b73c58a1",
-   "units": [
-    {
-     "kind": "spectrum",
-     "install": "templates_spectrum",
-     "from": "1920x1080_g5_CassetteTouch/temlates_spectrum/1920x1080_g5_CassetteTouch/",
-     "folder": "1920x1080_g5_CassetteTouch",
-     "names": [
-      "Cas1",
-      "Cas2",
-      "Cas3",
-      "Cas4",
-      "Cas5",
-      "Cas6"
-     ]
-    },
-    {
-     "kind": "meter",
-     "install": "templates",
-     "from": "1920x1080_g5_CassetteTouch/templates/1920x1080_g5_CassetteTouch/",
-     "folder": "1920x1080_g5_CassetteTouch",
-     "names": [
-      "750G5_Cassette_Lin Touch",
-      "751G5_Denon Cass Touch",
-      "752G5_SonyK770 Touch",
-      "753G5_Sansui Cass Touch",
-      "754G5_Sharp Cass Touch",
-      "755G5_BASF Touch"
-     ]
-    }
-   ],
-   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_CassetteTouch.png",
-   "thumb": "catalog/thumbs/1920x1080_g5_CassetteTouch.jpg"
-  },
-  {
-   "name": "1920x1080_g5_CdTouch",
-   "category": "templates_peppy_spectrum",
-   "kind": "meter+spectrum",
-   "width": 1920,
-   "height": 1080,
-   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_CdTouch.zip",
-   "bytes": 32417058,
-   "sha256": "c47c48ff31ae4e8f37e24e85133aa5a7257c4d022d7c5ed2a89c9a1f191fcb4b",
-   "units": [
-    {
-     "kind": "meter",
-     "install": "templates",
-     "from": "1920x1080_g5_CdTouch/templates/1920x1080_g5_CdTouch/",
-     "folder": "1920x1080_g5_CdTouch",
-     "names": [
-      "650G5_McIntoshCD Touch",
-      "651G5_KenwoodCD Touch",
-      "652G5_Kenwood Ver_Touch",
-      "653G5_FreeCD Touch",
-      "654G5_VertereCD Touch",
-      "655G5_Mion_Touch",
-      "656G5_ShanlingCD Touch",
-      "657G5_LG_Thinkya Touch",
-      "658G5_Syitren Touch"
-     ]
-    },
-    {
-     "kind": "spectrum",
-     "install": "templates_spectrum",
-     "from": "1920x1080_g5_CdTouch/templates_spectrum/1920x1080_g5_CdTouch/",
-     "folder": "1920x1080_g5_CdTouch",
-     "names": [
-      "MCIN1",
-      "MCIN2",
-      "MCIN3",
-      "MCIN4",
-      "MCIN5",
-      "MCIN6",
-      "MCIN7",
-      "MCIN8",
-      "MCIN9"
-     ]
-    }
-   ],
-   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_CdTouch.png",
-   "thumb": "catalog/thumbs/1920x1080_g5_CdTouch.jpg"
-  },
-  {
    "name": "1920x1080_g5_TapeTouch",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
@@ -6397,6 +6307,102 @@
    ],
    "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_TapeTouch.png",
    "thumb": "catalog/thumbs/1920x1080_g5_TapeTouch.jpg"
+  },
+  {
+   "name": "1920x1080_g5_TouchCD",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TouchCD.zip",
+   "bytes": 32417058,
+   "sha256": "c1e93737033edb80f87195ad5fb4209eb3987d84457dd8f016bb9d7aa929f0cd",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_g5_TouchCD/templates/1920x1080_g5_TouchCD/",
+     "folder": "1920x1080_g5_TouchCD",
+     "names": [
+      "650G5_McIntoshCD Touch",
+      "651G5_KenwoodCD Touch",
+      "652G5_Kenwood Ver_Touch",
+      "653G5_FreeCD Touch",
+      "654G5_VertereCD Touch",
+      "655G5_Mion_Touch",
+      "656G5_ShanlingCD Touch",
+      "657G5_LG_Thinkya Touch",
+      "658G5_Syitren Touch"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_g5_TouchCD/templates_spectrum/1920x1080_g5_TouchCD/",
+     "folder": "1920x1080_g5_TouchCD",
+     "names": [
+      "MCIN1",
+      "MCIN2",
+      "MCIN3",
+      "MCIN4",
+      "MCIN5",
+      "MCIN6",
+      "MCIN7",
+      "MCIN8",
+      "MCIN9"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_TouchCD.png",
+   "thumb": "catalog/thumbs/1920x1080_g5_TouchCD.jpg"
+  },
+  {
+   "name": "1920x1080_g5_TouchCassette",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TouchCassette.zip",
+   "bytes": 31432781,
+   "sha256": "278e01471d9dd0cf6b1a7c715811a8c07d9c844cf7512d3e9967868ec19d7510",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_g5_TouchCassette/templates/1920x1080_g5_TouchCassette/",
+     "folder": "1920x1080_g5_TouchCassette",
+     "names": [
+      "750G5_Pioneer CT_Touch",
+      "751G5_Denon Cass Touch",
+      "752G5_SonyK770 Touch",
+      "753G5_Sansui Cass Touch",
+      "754G5_Sharp Cass Touch",
+      "755G5_BASF Touch",
+      "756G5_Cassette_Lin Touch",
+      "757G5_Optonica Touch",
+      "758G5_Philips Touch"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_g5_TouchCassette/templates_spectrum/1920x1080_g5_TouchCassette/",
+     "folder": "1920x1080_g5_TouchCassette",
+     "names": [
+      "Cas1",
+      "Cas2",
+      "Cas3",
+      "Cas4",
+      "Cas5",
+      "Cas6",
+      "Pion",
+      "Opto",
+      "Phil"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_TouchCassette.png",
+   "thumb": "catalog/thumbs/1920x1080_g5_TouchCassette.jpg"
   },
   {
    "name": "1920x1080_g5_TouchMetGBS",
@@ -6462,8 +6468,8 @@
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TurnTouch.zip",
-   "bytes": 30457502,
-   "sha256": "0599077e41f6e51505f0b159689c351c83f03bd66c3a6aa8d0cdc997e5e313ce",
+   "bytes": 30458435,
+   "sha256": "46616dcc96dd077c6693d648e31c48716b3badeba479615277a29f209f3609a9",
    "units": [
     {
      "kind": "meter",
