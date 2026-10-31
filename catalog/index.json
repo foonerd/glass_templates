@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-29T23:24:17+01:00",
+ "updated": "2026-10-31T16:10:36+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6758,6 +6758,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Flow_Two.png",
    "thumb": "catalog/thumbs/1920x440_Flow_Two.jpg"
+  },
+  {
+   "name": "1920x440_Metaxas_Sins",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_Metaxas_Sins.zip",
+   "bytes": 2138160,
+   "sha256": "ce002bf831308e3c89e7876728592ba4248190fba7b337f6e17a5a868399a13b",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_Metaxas_Sins/templates/1920x440_Metaxas_Sins/",
+     "folder": "1920x440_Metaxas_Sins",
+     "names": [
+      "1920x440_Metaxas_Sins"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_Metaxas_Sins/templates_spectrum/1920x440_Metaxas_Sins/",
+     "folder": "1920x440_Metaxas_Sins",
+     "names": [
+      "1920x440_Metaxas_Sins"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Metaxas_Sins.png",
+   "thumb": "catalog/thumbs/1920x440_Metaxas_Sins.jpg"
   },
   {
    "name": "1920x440_Naim_NSS-333",

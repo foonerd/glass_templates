@@ -196,6 +196,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1920x440_Metaxas_Sins
+
+![1920x440_Metaxas_Sins](previews/1920x440_Metaxas_Sins.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1920x440_Metaxas_Sins |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1920x440_Metaxas_Sins.zip](1920x440_Metaxas_Sins.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1920x440_Naim_NSS-333
 
 ![1920x440_Naim_NSS-333](previews/1920x440_Naim_NSS-333.png)
