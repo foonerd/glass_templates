@@ -140,6 +140,80 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1920x1080_g5_TouchCD
+
+![1920x1080_g5_TouchCD](previews/1920x1080_g5_TouchCD.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (9 templates) |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 650G5_McIntoshCD Touch
+- 651G5_KenwoodCD Touch
+- 652G5_Kenwood Ver_Touch
+- 653G5_FreeCD Touch
+- 654G5_VertereCD Touch
+- 655G5_Mion_Touch
+- 656G5_ShanlingCD Touch
+- 657G5_LG_Thinkya Touch
+- 658G5_Syitren Touch
+
+**Download:** [1920x1080_g5_TouchCD.zip](1920x1080_g5_TouchCD.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1920x1080_g5_TouchCassette
+
+![1920x1080_g5_TouchCassette](previews/1920x1080_g5_TouchCassette.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (9 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 750G5_Pioneer CT_Touch
+- 751G5_Denon Cass Touch
+- 752G5_SonyK770 Touch
+- 753G5_Sansui Cass Touch
+- 754G5_Sharp Cass Touch
+- 755G5_BASF Touch
+- 756G5_Cassette_Lin Touch
+- 757G5_Optonica Touch
+- 758G5_Philips Touch
+
+**Download:** [1920x1080_g5_TouchCassette.zip](1920x1080_g5_TouchCassette.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1920x1080_g5_TouchMetGBS
 
 ![1920x1080_g5_TouchMetGBS](previews/1920x1080_g5_TouchMetGBS.png)
