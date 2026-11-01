@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-31T20:33:06+01:00",
+ "updated": "2026-11-01T15:09:43+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6266,8 +6266,8 @@
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TapeTouch.zip",
-   "bytes": 50886049,
-   "sha256": "cb6900a54978cdeb9bb56db241faf52cbd14464673f227b9c359759476088d7f",
+   "bytes": 42003880,
+   "sha256": "a05342ad65cba24c160a1ef829c20581abe75ee08496af81c1d5eae581820af7",
    "units": [
     {
      "kind": "meter",
