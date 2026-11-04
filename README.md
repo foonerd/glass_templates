@@ -114,3 +114,7 @@ A theme made for one size shows on another with Fit, and Tailor cuts a copy to a
 ## License
 
 Individual themes may carry their own licences; see each theme's page.
+
+## Lens pictures
+
+`assets/lens/` holds pictures a theme may lay over its record with `vinyl.lens.filename`: grooves and a faint glint, with alpha everywhere, drawn over the record and its label and under the tonearm. `vinyl-lens-512.png` is 512 pixels square and is stretched to the record's size (`vinyl.lens.dimension`, else `vinyl.dimension`). The keys are in the Glass wiki's Meters Reference.
