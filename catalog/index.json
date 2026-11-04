@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-02T10:45:20+01:00",
+ "updated": "2026-11-04T21:20:09+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6193,6 +6193,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_20g5.jpg",
    "thumb": "catalog/thumbs/1920x1080_20g5.jpg"
+  },
+  {
+   "name": "1920x1080_Project_VTER",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_Project_VTER.zip",
+   "bytes": 4369854,
+   "sha256": "981516d5399fd713e3904fdb02d216026ee45f647adc86402983fdc09e978d19",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_Project_VTER/templates/1920x1080_Project_VTER/",
+     "folder": "1920x1080_Project_VTER",
+     "names": [
+      "vertical-turntable-blue"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_Project_VTER/templates_spectrum/1920x1080_Project_VTER/",
+     "folder": "1920x1080_Project_VTER",
+     "names": [
+      "1920x1080_Project_VTER"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_Project_VTER.png",
+   "thumb": "catalog/thumbs/1920x1080_Project_VTER.jpg"
   },
   {
    "name": "1920x1080_cd_changer",
