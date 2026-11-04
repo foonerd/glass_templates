@@ -64,7 +64,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 **Download:** [1920x1080_Project_VTER.zip](1920x1080_Project_VTER.zip)
 
-**Uses the spectrum analyser.**
+**Uses the spectrum analyser, interactive buttons.**
 
 **Install (both required):**
 1. Extract the zip file
