@@ -208,7 +208,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 | Property | Value |
 |----------|-------|
-| Template Pack | Yes (9 templates) |
+| Template Pack | Yes (12 templates) |
 | Meter Type | linear |
 | Extended Config | Yes |
 | Spectrum | Yes |
@@ -225,6 +225,9 @@ Or press Install on the Catalog tab of the Glass Manager.
 - 756G5_Cassette_Lin Touch
 - 757G5_Optonica Touch
 - 758G5_Philips Touch
+- 759G5_Sansui3000 Touch
+- 760G5_RevoxCass Touch
+- 761G5_JVC Touch
 
 **Download:** [1920x1080_g5_TouchCassette.zip](1920x1080_g5_TouchCassette.zip)
 
