@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-04T21:20:09+01:00",
+ "updated": "2026-11-04T21:48:26+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6395,8 +6395,8 @@
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TouchCassette.zip",
-   "bytes": 31432781,
-   "sha256": "5b957663e18b2466e8bd4fd0610279bdb398c528a57567ef746297217c9f94ec",
+   "bytes": 40592220,
+   "sha256": "b47e7fcb2292e1e83cc63cfd02864eddc19edb8b7c43babd69b0614e56e37ddf",
    "units": [
     {
      "kind": "meter",
@@ -6412,7 +6412,10 @@
       "755G5_BASF Touch",
       "756G5_Cassette_Lin Touch",
       "757G5_Optonica Touch",
-      "758G5_Philips Touch"
+      "758G5_Philips Touch",
+      "759G5_Sansui3000 Touch",
+      "760G5_RevoxCass Touch",
+      "761G5_JVC Touch"
      ]
     },
     {
@@ -6429,7 +6432,10 @@
       "Cas6",
       "Pion",
       "Opto",
-      "Phil"
+      "Phil",
+      "SANS",
+      "Revox",
+      "JVC"
      ]
     }
    ],
