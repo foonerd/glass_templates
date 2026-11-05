@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-04T22:37:46+01:00",
+ "updated": "2026-11-05T19:15:02+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6193,6 +6193,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_20g5.jpg",
    "thumb": "catalog/thumbs/1920x1080_20g5.jpg"
+  },
+  {
+   "name": "1920x1080_NAD_Monitor",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_NAD_Monitor.zip",
+   "bytes": 5213941,
+   "sha256": "c5da15247092174e933bd5f945093561dc9ce5d56921d2df7a90c27b12497444",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_NAD_Monitor/templates/1920x1080_NAD_Monitor/",
+     "folder": "1920x1080_NAD_Monitor",
+     "names": [
+      "NAD_Monitor"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_NAD_Monitor/templates_spectrum/1920x1080_NAD_Monitor/",
+     "folder": "1920x1080_NAD_Monitor",
+     "names": [
+      "1920x1080_NAD_Monitor"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_NAD_Monitor.png",
+   "thumb": "catalog/thumbs/1920x1080_NAD_Monitor.jpg"
   },
   {
    "name": "1920x1080_Project_VTER",
