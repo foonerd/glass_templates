@@ -194,7 +194,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 | Property | Value |
 |----------|-------|
-| Template Pack | Yes (7 templates) |
+| Template Pack | Yes (8 templates) |
 | Meter Type | linear |
 | Extended Config | Yes |
 | Spectrum | Yes |
@@ -209,6 +209,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 - orbit
 - trace
 - pair
+- flat
 
 **Download:** [1280x720_glass_movie.zip](1280x720_glass_movie.zip)
 
