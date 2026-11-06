@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-06T07:02:58Z",
+ "updated": "2026-11-06T18:55:51+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6335,6 +6335,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_cd_changer.png",
    "thumb": "catalog/thumbs/1920x1080_cd_changer.jpg"
+  },
+  {
+   "name": "1920x1080_cd_changer_4",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_cd_changer_4.zip",
+   "bytes": 7182953,
+   "sha256": "34e2973b211fbf3e51ccd5d3fd843ac777d76ffc591ead816e59227829fc1ea2",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_cd_changer_4/templates/1920x1080_cd_changer_4/",
+     "folder": "1920x1080_cd_changer_4",
+     "names": [
+      "CD Changer"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_cd_changer_4/templates_spectrum/1920x1080_cd_changer_4/",
+     "folder": "1920x1080_cd_changer_4",
+     "names": [
+      "1920x1080_cd_changer_4"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_cd_changer_4.png",
+   "thumb": "catalog/thumbs/1920x1080_cd_changer_4.jpg"
   },
   {
    "name": "1920x1080_g5_721_ms",
