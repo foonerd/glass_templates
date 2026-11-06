@@ -188,6 +188,41 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1280x720_glass_movie
+
+![1280x720_glass_movie](previews/1280x720_glass_movie.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (7 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- studio
+- lamps
+- glow
+- wire
+- orbit
+- trace
+- pair
+
+**Download:** [1280x720_glass_movie.zip](1280x720_glass_movie.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys, pictures that cover their box.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 
 ## Installation
 

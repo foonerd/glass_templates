@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-05T19:15:02+01:00",
+ "updated": "2026-11-06T07:02:58Z",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5517,6 +5517,51 @@
    ],
    "preview": "templates_peppy_spectrum/1280/720/previews/1280x720_glass_looks.png",
    "thumb": "catalog/thumbs/1280x720_glass_looks.jpg"
+  },
+  {
+   "name": "1280x720_glass_movie",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 720,
+   "zip": "templates_peppy_spectrum/1280/720/1280x720_glass_movie.zip",
+   "bytes": 151150,
+   "sha256": "f915c5ed9ffbc5393de6b226b1a25ca7ed3ddf26870744a18003454f9f45c70d",
+   "units": [
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x720_glass_movie/templates_spectrum/1280x720_glass_movie/",
+     "folder": "1280x720_glass_movie",
+     "names": [
+      "studio",
+      "lamps",
+      "glow",
+      "wire",
+      "orbit",
+      "trace",
+      "pair-left",
+      "pair-right"
+     ]
+    },
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x720_glass_movie/templates/1280x720_glass_movie/",
+     "folder": "1280x720_glass_movie",
+     "names": [
+      "studio",
+      "lamps",
+      "glow",
+      "wire",
+      "orbit",
+      "trace",
+      "pair"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/720/previews/1280x720_glass_movie.png",
+   "thumb": "catalog/thumbs/1280x720_glass_movie.jpg"
   },
   {
    "name": "1280x800_Alu_Glass",
