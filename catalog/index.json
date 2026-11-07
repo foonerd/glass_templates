@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-07T15:59:30+01:00",
+ "updated": "2026-11-07T19:23:44+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -7009,6 +7009,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_OL_Calypso.png",
    "thumb": "catalog/thumbs/1920x440_OL_Calypso.jpg"
+  },
+  {
+   "name": "1920x440_Pro-ject_Metallica_Blue",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_Pro-ject_Metallica_Blue.zip",
+   "bytes": 3720875,
+   "sha256": "3ffe0357435284c42f2ef925310fdc2e931992bc9f6a0c12c12fa2a88202213c",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_Pro-ject_Metallica_Blue/templates/1920x440_Pro-ject_Metallica_Blue/",
+     "folder": "1920x440_Pro-ject_Metallica_Blue",
+     "names": [
+      "vertical-turntable-blue"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_Pro-ject_Metallica_Blue/templates_spectrum/1920x440_Pro-ject_Metallica_Blue/",
+     "folder": "1920x440_Pro-ject_Metallica_Blue",
+     "names": [
+      "1920x440_Pro-ject_Metallica_Blue"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Pro-ject_Metallica_Blue.png",
+   "thumb": "catalog/thumbs/1920x440_Pro-ject_Metallica_Blue.jpg"
   },
   {
    "name": "1920x440_Project_VTER",
