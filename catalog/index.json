@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-06T23:26:04Z",
+ "updated": "2026-11-07T15:59:30+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6977,6 +6977,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Naim_NSS-333.png",
    "thumb": "catalog/thumbs/1920x440_Naim_NSS-333.jpg"
+  },
+  {
+   "name": "1920x440_OL_Calypso",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_OL_Calypso.zip",
+   "bytes": 3072437,
+   "sha256": "ee9108305c3060ac66ed73d7eabc622818a52931ca5b9a31ccdec64cd9937100",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_OL_Calypso/templates/1920x440_OL_Calypso/",
+     "folder": "1920x440_OL_Calypso",
+     "names": [
+      "1920x440_OL_Calypsoe"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_OL_Calypso/templates_spectrum/1920x440_OL_Calypso/",
+     "folder": "1920x440_OL_Calypso",
+     "names": [
+      "1920x440_OL_Calypso"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_OL_Calypso.png",
+   "thumb": "catalog/thumbs/1920x440_OL_Calypso.jpg"
   },
   {
    "name": "1920x440_Project_VTER",
