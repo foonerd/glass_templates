@@ -50,6 +50,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1920x1080_NAD_Monitor
+
+![1920x1080_NAD_Monitor](previews/1920x1080_NAD_Monitor.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | NAD_Monitor |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1920x1080_NAD_Monitor.zip](1920x1080_NAD_Monitor.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1920x1080_Project_VTER
 
 ![1920x1080_Project_VTER](previews/1920x1080_Project_VTER.png)
@@ -64,7 +89,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 **Download:** [1920x1080_Project_VTER.zip](1920x1080_Project_VTER.zip)
 
-**Uses the spectrum analyser.**
+**Uses the spectrum analyser, interactive buttons.**
 
 **Install (both required):**
 1. Extract the zip file
@@ -95,6 +120,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 **Download:** [1920x1080_cd_changer.zip](1920x1080_cd_changer.zip)
 
 **Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1920x1080_cd_changer_4
+
+![1920x1080_cd_changer_4](previews/1920x1080_cd_changer_4.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | CD Changer |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1920x1080_cd_changer_4.zip](1920x1080_cd_changer_4.zip)
+
+**Uses the spectrum analyser.**
 
 **Install (both required):**
 1. Extract the zip file
@@ -208,7 +258,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 | Property | Value |
 |----------|-------|
-| Template Pack | Yes (9 templates) |
+| Template Pack | Yes (12 templates) |
 | Meter Type | linear |
 | Extended Config | Yes |
 | Spectrum | Yes |
@@ -225,6 +275,9 @@ Or press Install on the Catalog tab of the Glass Manager.
 - 756G5_Cassette_Lin Touch
 - 757G5_Optonica Touch
 - 758G5_Philips Touch
+- 759G5_Sansui3000 Touch
+- 760G5_RevoxCass Touch
+- 761G5_JVC Touch
 
 **Download:** [1920x1080_g5_TouchCassette.zip](1920x1080_g5_TouchCassette.zip)
 

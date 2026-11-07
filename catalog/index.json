@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-04T21:20:09+01:00",
+ "updated": "2026-11-07T19:23:44+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5519,6 +5519,53 @@
    "thumb": "catalog/thumbs/1280x720_glass_looks.jpg"
   },
   {
+   "name": "1280x720_glass_movie",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 720,
+   "zip": "templates_peppy_spectrum/1280/720/1280x720_glass_movie.zip",
+   "bytes": 203937,
+   "sha256": "884df5ed50ec6d1f17e5b48ff3537a69e3b737f1cf773e808ee599b9d9736ee1",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x720_glass_movie/templates/1280x720_glass_movie/",
+     "folder": "1280x720_glass_movie",
+     "names": [
+      "studio",
+      "lamps",
+      "glow",
+      "wire",
+      "orbit",
+      "trace",
+      "pair",
+      "flat"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x720_glass_movie/templates_spectrum/1280x720_glass_movie/",
+     "folder": "1280x720_glass_movie",
+     "names": [
+      "studio",
+      "lamps",
+      "glow",
+      "wire",
+      "orbit",
+      "trace",
+      "pair-left",
+      "pair-right",
+      "flat"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/720/previews/1280x720_glass_movie.png",
+   "thumb": "catalog/thumbs/1280x720_glass_movie.jpg"
+  },
+  {
    "name": "1280x800_Alu_Glass",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
@@ -6195,14 +6242,46 @@
    "thumb": "catalog/thumbs/1920x1080_20g5.jpg"
   },
   {
+   "name": "1920x1080_NAD_Monitor",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_NAD_Monitor.zip",
+   "bytes": 5213941,
+   "sha256": "c5da15247092174e933bd5f945093561dc9ce5d56921d2df7a90c27b12497444",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_NAD_Monitor/templates/1920x1080_NAD_Monitor/",
+     "folder": "1920x1080_NAD_Monitor",
+     "names": [
+      "NAD_Monitor"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_NAD_Monitor/templates_spectrum/1920x1080_NAD_Monitor/",
+     "folder": "1920x1080_NAD_Monitor",
+     "names": [
+      "1920x1080_NAD_Monitor"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_NAD_Monitor.png",
+   "thumb": "catalog/thumbs/1920x1080_NAD_Monitor.jpg"
+  },
+  {
    "name": "1920x1080_Project_VTER",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_Project_VTER.zip",
-   "bytes": 4369854,
-   "sha256": "981516d5399fd713e3904fdb02d216026ee45f647adc86402983fdc09e978d19",
+   "bytes": 4593177,
+   "sha256": "6112134286f44766b0b747d7ea88095a2b225b6ed8325dbe3316d5df9686c17d",
    "units": [
     {
      "kind": "meter",
@@ -6258,6 +6337,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_cd_changer.png",
    "thumb": "catalog/thumbs/1920x1080_cd_changer.jpg"
+  },
+  {
+   "name": "1920x1080_cd_changer_4",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_cd_changer_4.zip",
+   "bytes": 7182953,
+   "sha256": "34e2973b211fbf3e51ccd5d3fd843ac777d76ffc591ead816e59227829fc1ea2",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_cd_changer_4/templates/1920x1080_cd_changer_4/",
+     "folder": "1920x1080_cd_changer_4",
+     "names": [
+      "CD Changer"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_cd_changer_4/templates_spectrum/1920x1080_cd_changer_4/",
+     "folder": "1920x1080_cd_changer_4",
+     "names": [
+      "1920x1080_cd_changer_4"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_cd_changer_4.png",
+   "thumb": "catalog/thumbs/1920x1080_cd_changer_4.jpg"
   },
   {
    "name": "1920x1080_g5_721_ms",
@@ -6395,8 +6506,8 @@
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TouchCassette.zip",
-   "bytes": 31432781,
-   "sha256": "5b957663e18b2466e8bd4fd0610279bdb398c528a57567ef746297217c9f94ec",
+   "bytes": 40592220,
+   "sha256": "b47e7fcb2292e1e83cc63cfd02864eddc19edb8b7c43babd69b0614e56e37ddf",
    "units": [
     {
      "kind": "meter",
@@ -6412,7 +6523,10 @@
       "755G5_BASF Touch",
       "756G5_Cassette_Lin Touch",
       "757G5_Optonica Touch",
-      "758G5_Philips Touch"
+      "758G5_Philips Touch",
+      "759G5_Sansui3000 Touch",
+      "760G5_RevoxCass Touch",
+      "761G5_JVC Touch"
      ]
     },
     {
@@ -6429,7 +6543,10 @@
       "Cas6",
       "Pion",
       "Opto",
-      "Phil"
+      "Phil",
+      "SANS",
+      "Revox",
+      "JVC"
      ]
     }
    ],
@@ -6860,6 +6977,70 @@
    ],
    "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Naim_NSS-333.png",
    "thumb": "catalog/thumbs/1920x440_Naim_NSS-333.jpg"
+  },
+  {
+   "name": "1920x440_OL_Calypso",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_OL_Calypso.zip",
+   "bytes": 3072437,
+   "sha256": "ee9108305c3060ac66ed73d7eabc622818a52931ca5b9a31ccdec64cd9937100",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_OL_Calypso/templates/1920x440_OL_Calypso/",
+     "folder": "1920x440_OL_Calypso",
+     "names": [
+      "1920x440_OL_Calypsoe"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_OL_Calypso/templates_spectrum/1920x440_OL_Calypso/",
+     "folder": "1920x440_OL_Calypso",
+     "names": [
+      "1920x440_OL_Calypso"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_OL_Calypso.png",
+   "thumb": "catalog/thumbs/1920x440_OL_Calypso.jpg"
+  },
+  {
+   "name": "1920x440_Pro-ject_Metallica_Blue",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_Pro-ject_Metallica_Blue.zip",
+   "bytes": 3720875,
+   "sha256": "3ffe0357435284c42f2ef925310fdc2e931992bc9f6a0c12c12fa2a88202213c",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_Pro-ject_Metallica_Blue/templates/1920x440_Pro-ject_Metallica_Blue/",
+     "folder": "1920x440_Pro-ject_Metallica_Blue",
+     "names": [
+      "vertical-turntable-blue"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_Pro-ject_Metallica_Blue/templates_spectrum/1920x440_Pro-ject_Metallica_Blue/",
+     "folder": "1920x440_Pro-ject_Metallica_Blue",
+     "names": [
+      "1920x440_Pro-ject_Metallica_Blue"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Pro-ject_Metallica_Blue.png",
+   "thumb": "catalog/thumbs/1920x440_Pro-ject_Metallica_Blue.jpg"
   },
   {
    "name": "1920x440_Project_VTER",
