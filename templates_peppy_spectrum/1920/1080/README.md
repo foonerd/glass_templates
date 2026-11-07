@@ -258,7 +258,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 | Property | Value |
 |----------|-------|
-| Template Pack | Yes (12 templates) |
+| Template Pack | Yes (15 templates) |
 | Meter Type | linear |
 | Extended Config | Yes |
 | Spectrum | Yes |
@@ -278,6 +278,9 @@ Or press Install on the Catalog tab of the Glass Manager.
 - 759G5_Sansui3000 Touch
 - 760G5_RevoxCass Touch
 - 761G5_JVC Touch
+- 762G5_TEAC Silver Touch
+- 763G5_Sony TCK60 Touch
+- 764G5_AKAI MO1A Touch
 
 **Download:** [1920x1080_g5_TouchCassette.zip](1920x1080_g5_TouchCassette.zip)
 
