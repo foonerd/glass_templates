@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-08T21:17:44+01:00",
+ "updated": "2026-11-08T21:43:33+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6272,6 +6272,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_NAD_Monitor.png",
    "thumb": "catalog/thumbs/1920x1080_NAD_Monitor.jpg"
+  },
+  {
+   "name": "1920x1080_Project_HarleyDavidson",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_Project_HarleyDavidson.zip",
+   "bytes": 3453322,
+   "sha256": "4fcb9480a19e122a59bebd565c1ca5112774ec4490e608e7f998403036b785fa",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_Project_HarleyDavidson/templates/1920x1080_Project_HarleyDavidson/",
+     "folder": "1920x1080_Project_HarleyDavidson",
+     "names": [
+      "1920x1080_Project_HarleyDavidson"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_Project_HarleyDavidson/templates_spectrum/1920x1080_Project_HarleyDavidson/",
+     "folder": "1920x1080_Project_HarleyDavidson",
+     "names": [
+      "1920x1080_Project_HarleyDavidson"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_Project_HarleyDavidson.png",
+   "thumb": "catalog/thumbs/1920x1080_Project_HarleyDavidson.jpg"
   },
   {
    "name": "1920x1080_Project_VTER",
