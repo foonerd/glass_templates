@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-08T18:41:49+01:00",
+ "updated": "2026-11-08T21:17:44+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6616,6 +6616,48 @@
    ],
    "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_TouchMetGBS.png",
    "thumb": "catalog/thumbs/1920x1080_g5_TouchMetGBS.jpg"
+  },
+  {
+   "name": "1920x1080_g5_TouchVideo",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TouchVideo.zip",
+   "bytes": 5028414,
+   "sha256": "3b3617dac76568eae6afeee4e227f8c4d5f8c25b71168e97601c881a064cd062",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_g5_TouchVideo/templates/1920x1080_g5_TouchVideo/",
+     "folder": "1920x1080_g5_TouchVideo",
+     "names": [
+      "900G5_Touch Video1",
+      "901G5_Touch Video2",
+      "902G5_Touch Video3",
+      "903G5_Touch Video4"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_g5_TouchVideo/templates_spectrum/1920x1080_g5_TouchVideo/",
+     "folder": "1920x1080_g5_TouchVideo",
+     "names": [
+      "Video-left",
+      "Video-right",
+      "Video2-left",
+      "Video2-right",
+      "Video3-left",
+      "Video3-right",
+      "Video4-left",
+      "Video4-right"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_TouchVideo.png",
+   "thumb": "catalog/thumbs/1920x1080_g5_TouchVideo.jpg"
   },
   {
    "name": "1920x1080_g5_TurnTouch",

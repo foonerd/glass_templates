@@ -335,6 +335,38 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1920x1080_g5_TouchVideo
+
+![1920x1080_g5_TouchVideo](previews/1920x1080_g5_TouchVideo.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (4 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 900G5_Touch Video1
+- 901G5_Touch Video2
+- 902G5_Touch Video3
+- 903G5_Touch Video4
+
+**Download:** [1920x1080_g5_TouchVideo.zip](1920x1080_g5_TouchVideo.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys, pictures that cover their box.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1920x1080_g5_TurnTouch
 
 ![1920x1080_g5_TurnTouch](previews/1920x1080_g5_TurnTouch.png)
