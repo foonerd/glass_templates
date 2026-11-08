@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-07T20:57:33+01:00",
+ "updated": "2026-11-08T18:41:49+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -7048,6 +7048,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Pro-ject_Metallica_Blue.png",
    "thumb": "catalog/thumbs/1920x440_Pro-ject_Metallica_Blue.jpg"
+  },
+  {
+   "name": "1920x440_Project_HarleyDavidson",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_Project_HarleyDavidson.zip",
+   "bytes": 3454079,
+   "sha256": "5c33d70c0459d94635267cfb5582a415c3e84778d2ca471a0d432d45edd75d90",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_Project_HarleyDavidson/templates/1920x440_Project_HarleyDavidson/",
+     "folder": "1920x440_Project_HarleyDavidson",
+     "names": [
+      "1920x440_Project_HarleyDavidson"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_Project_HarleyDavidson/templates_spectrum/1920x440_Project_HarleyDavidson/",
+     "folder": "1920x440_Project_HarleyDavidson",
+     "names": [
+      "1920x440_Project_HarleyDavidson"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Project_HarleyDavidson.png",
+   "thumb": "catalog/thumbs/1920x440_Project_HarleyDavidson.jpg"
   },
   {
    "name": "1920x440_Project_VTER",
