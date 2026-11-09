@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-09T14:48:44+01:00",
+ "updated": "2026-11-09T20:16:07+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6656,8 +6656,8 @@
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TouchVideo.zip",
-   "bytes": 5028414,
-   "sha256": "3b3617dac76568eae6afeee4e227f8c4d5f8c25b71168e97601c881a064cd062",
+   "bytes": 8265442,
+   "sha256": "063d59994b7c8e9df6e0d2f982fbef115427dde6cf79d8621aed59fb2498b03e",
    "units": [
     {
      "kind": "meter",
@@ -6668,7 +6668,8 @@
       "900G5_Touch Video1",
       "901G5_Touch Video2",
       "902G5_Touch Video3",
-      "903G5_Touch Video4"
+      "903G5_Touch Video4",
+      "904G5_Touch Video5"
      ]
     },
     {
@@ -6684,7 +6685,9 @@
       "Video3-left",
       "Video3-right",
       "Video4-left",
-      "Video4-right"
+      "Video4-right",
+      "Video5-left",
+      "Video5-right"
      ]
     }
    ],
