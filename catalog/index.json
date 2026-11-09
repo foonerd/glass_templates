@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-08T21:43:33+01:00",
+ "updated": "2026-11-09T14:48:44+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -7282,6 +7282,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_black-anodized.png",
    "thumb": "catalog/thumbs/1920x440_black-anodized.jpg"
+  },
+  {
+   "name": "1920x440_indian4",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_indian4.zip",
+   "bytes": 1964908,
+   "sha256": "dab6c741252c2475a9b850008d1740f9168dc800d52b576ad712861ade485a91",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_indian4/templates/1920x440_indian4/",
+     "folder": "1920x440_indian4",
+     "names": [
+      "1920x440_indian4"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_indian4/templates_spectrum/1920x440_indian4/",
+     "folder": "1920x440_indian4",
+     "names": [
+      "1920x440_indian4"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_indian4.png",
+   "thumb": "catalog/thumbs/1920x440_indian4.jpg"
   },
   {
    "name": "1920x440_vertical_01",
