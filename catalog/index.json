@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-08T18:41:49+01:00",
+ "updated": "2026-11-09T14:48:44+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6274,6 +6274,38 @@
    "thumb": "catalog/thumbs/1920x1080_NAD_Monitor.jpg"
   },
   {
+   "name": "1920x1080_Project_HarleyDavidson",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_Project_HarleyDavidson.zip",
+   "bytes": 3453322,
+   "sha256": "4fcb9480a19e122a59bebd565c1ca5112774ec4490e608e7f998403036b785fa",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_Project_HarleyDavidson/templates/1920x1080_Project_HarleyDavidson/",
+     "folder": "1920x1080_Project_HarleyDavidson",
+     "names": [
+      "1920x1080_Project_HarleyDavidson"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_Project_HarleyDavidson/templates_spectrum/1920x1080_Project_HarleyDavidson/",
+     "folder": "1920x1080_Project_HarleyDavidson",
+     "names": [
+      "1920x1080_Project_HarleyDavidson"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_Project_HarleyDavidson.png",
+   "thumb": "catalog/thumbs/1920x1080_Project_HarleyDavidson.jpg"
+  },
+  {
    "name": "1920x1080_Project_VTER",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
@@ -6616,6 +6648,48 @@
    ],
    "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_TouchMetGBS.png",
    "thumb": "catalog/thumbs/1920x1080_g5_TouchMetGBS.jpg"
+  },
+  {
+   "name": "1920x1080_g5_TouchVideo",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TouchVideo.zip",
+   "bytes": 5028414,
+   "sha256": "3b3617dac76568eae6afeee4e227f8c4d5f8c25b71168e97601c881a064cd062",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_g5_TouchVideo/templates/1920x1080_g5_TouchVideo/",
+     "folder": "1920x1080_g5_TouchVideo",
+     "names": [
+      "900G5_Touch Video1",
+      "901G5_Touch Video2",
+      "902G5_Touch Video3",
+      "903G5_Touch Video4"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_g5_TouchVideo/templates_spectrum/1920x1080_g5_TouchVideo/",
+     "folder": "1920x1080_g5_TouchVideo",
+     "names": [
+      "Video-left",
+      "Video-right",
+      "Video2-left",
+      "Video2-right",
+      "Video3-left",
+      "Video3-right",
+      "Video4-left",
+      "Video4-right"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_g5_TouchVideo.png",
+   "thumb": "catalog/thumbs/1920x1080_g5_TouchVideo.jpg"
   },
   {
    "name": "1920x1080_g5_TurnTouch",
@@ -7208,6 +7282,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_black-anodized.png",
    "thumb": "catalog/thumbs/1920x440_black-anodized.jpg"
+  },
+  {
+   "name": "1920x440_indian4",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_indian4.zip",
+   "bytes": 1964908,
+   "sha256": "dab6c741252c2475a9b850008d1740f9168dc800d52b576ad712861ade485a91",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_indian4/templates/1920x440_indian4/",
+     "folder": "1920x440_indian4",
+     "names": [
+      "1920x440_indian4"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_indian4/templates_spectrum/1920x440_indian4/",
+     "folder": "1920x440_indian4",
+     "names": [
+      "1920x440_indian4"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_indian4.png",
+   "thumb": "catalog/thumbs/1920x440_indian4.jpg"
   },
   {
    "name": "1920x440_vertical_01",

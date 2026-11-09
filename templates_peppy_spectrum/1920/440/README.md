@@ -415,6 +415,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1920x440_indian4
+
+![1920x440_indian4](previews/1920x440_indian4.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1920x440_indian4 |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1920x440_indian4.zip](1920x440_indian4.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1920x440_vertical_01
 
 ![1920x440_vertical_01](previews/1920x440_vertical_01.png)

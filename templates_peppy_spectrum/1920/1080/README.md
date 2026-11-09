@@ -75,6 +75,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1920x1080_Project_HarleyDavidson
+
+![1920x1080_Project_HarleyDavidson](previews/1920x1080_Project_HarleyDavidson.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1920x1080_Project_HarleyDavidson |
+| Meter Type | circulair |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1920x1080_Project_HarleyDavidson.zip](1920x1080_Project_HarleyDavidson.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1920x1080_Project_VTER
 
 ![1920x1080_Project_VTER](previews/1920x1080_Project_VTER.png)
@@ -325,6 +350,38 @@ Or press Install on the Catalog tab of the Glass Manager.
 **Download:** [1920x1080_g5_TouchMetGBS.zip](1920x1080_g5_TouchMetGBS.zip)
 
 **Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1920x1080_g5_TouchVideo
+
+![1920x1080_g5_TouchVideo](previews/1920x1080_g5_TouchVideo.png)
+
+| Property | Value |
+|----------|-------|
+| Template Pack | Yes (4 templates) |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Included Meters:**
+
+- 900G5_Touch Video1
+- 901G5_Touch Video2
+- 902G5_Touch Video3
+- 903G5_Touch Video4
+
+**Download:** [1920x1080_g5_TouchVideo.zip](1920x1080_g5_TouchVideo.zip)
+
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys, pictures that cover their box.**
 
 **Install (both required):**
 1. Extract the zip file
