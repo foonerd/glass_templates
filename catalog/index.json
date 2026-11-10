@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-10T12:06:08+01:00",
+ "updated": "2026-11-10T22:53:50+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6775,6 +6775,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Aluminium_spectrum.png",
    "thumb": "catalog/thumbs/1920x440_Aluminium_spectrum.jpg"
+  },
+  {
+   "name": "1920x440_Audiowood_Black_Barky",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_Audiowood_Black_Barky.zip",
+   "bytes": 2861041,
+   "sha256": "68e9cb7340883d08d13c2b2111cb394f9c78feeac7d825192cd7266985640f68",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_Audiowood_Black_Barky/templates/1920x440_Audiowood_Black_Barky/",
+     "folder": "1920x440_Audiowood_Black_Barky",
+     "names": [
+      "1920x440_Audiowood_Black_Barky"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_Audiowood_Black_Barky/templates_spectrum/1920x440_Audiowood_Black_Barky/",
+     "folder": "1920x440_Audiowood_Black_Barky",
+     "names": [
+      "1920x440_Audiowood_Black_Barky"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Audiowood_Black_Barky.png",
+   "thumb": "catalog/thumbs/1920x440_Audiowood_Black_Barky.jpg"
   },
   {
    "name": "1920x440_BB_5",
