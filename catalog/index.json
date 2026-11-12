@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-12T12:31:05Z",
+ "updated": "2026-11-12T17:48:49+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6490,9 +6490,26 @@
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TouchCD.zip",
-   "bytes": 32477872,
-   "sha256": "ae60648457dceebaff3fdd39a7dc63c9a671b43db55375dc44647ded16a9b634",
+   "bytes": 41350541,
+   "sha256": "3cc5b96969592df14558392e38e0937ac49fc3e05e7b0b41275557155cbce869",
    "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_g5_TouchCD/",
+     "folder": "1920x1080_g5_TouchCD",
+     "names": [
+      "650G5_McIntoshCD Touch",
+      "651G5_KenwoodCD Touch",
+      "652G5_Kenwood Ver_Touch",
+      "653G5_FreeCD Touch",
+      "654G5_VertereCD Touch",
+      "655G5_Mion_Touch",
+      "656G5_ShanlingCD Touch",
+      "657G5_LG_Thinkya Touch",
+      "658G5_Syitren Touch"
+     ]
+    },
     {
      "kind": "meter",
      "install": "templates",
