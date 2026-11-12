@@ -246,7 +246,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 | Property | Value |
 |----------|-------|
-| Template Pack | Yes (9 templates) |
+| Template Pack | Yes (18 templates) |
 | Meter Type | circular |
 | Extended Config | Yes |
 | Spectrum | Yes |
@@ -263,10 +263,19 @@ Or press Install on the Catalog tab of the Glass Manager.
 - 656G5_ShanlingCD Touch
 - 657G5_LG_Thinkya Touch
 - 658G5_Syitren Touch
+- 650G5_McIntoshCD Touch
+- 651G5_KenwoodCD Touch
+- 652G5_Kenwood Ver_Touch
+- 653G5_FreeCD Touch
+- 654G5_VertereCD Touch
+- 655G5_Mion_Touch
+- 656G5_ShanlingCD Touch
+- 657G5_LG_Thinkya Touch
+- 658G5_Syitren Touch
 
 **Download:** [1920x1080_g5_TouchCD.zip](1920x1080_g5_TouchCD.zip)
 
-**Uses the spectrum analyser, interactive buttons, Glass-only meter keys.**
+**Uses the spectrum analyser, interactive buttons, Glass-only meter keys, pictures that cover their box.**
 
 **Install (both required):**
 1. Extract the zip file
