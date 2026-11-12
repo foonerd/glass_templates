@@ -366,7 +366,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 | Property | Value |
 |----------|-------|
-| Template Pack | Yes (5 templates) |
+| Template Pack | Yes (6 templates) |
 | Meter Type | linear |
 | Extended Config | Yes |
 | Spectrum | Yes |
@@ -379,6 +379,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 - 902G5_Touch Video3
 - 903G5_Touch Video4
 - 904G5_Touch Video5
+- 905G5_Touch Video6
 
 **Download:** [1920x1080_g5_TouchVideo.zip](1920x1080_g5_TouchVideo.zip)
 
