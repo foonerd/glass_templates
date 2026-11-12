@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-10T22:53:50+01:00",
+ "updated": "2026-11-12T18:18:23+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5525,25 +5525,9 @@
    "width": 1280,
    "height": 720,
    "zip": "templates_peppy_spectrum/1280/720/1280x720_glass_movie.zip",
-   "bytes": 203937,
-   "sha256": "884df5ed50ec6d1f17e5b48ff3537a69e3b737f1cf773e808ee599b9d9736ee1",
+   "bytes": 204957,
+   "sha256": "004aa56cde0859fe3e6dedf0ee902ddd25e07fbab2d55e1d45e3f6c530985802",
    "units": [
-    {
-     "kind": "meter",
-     "install": "templates",
-     "from": "1280x720_glass_movie/templates/1280x720_glass_movie/",
-     "folder": "1280x720_glass_movie",
-     "names": [
-      "studio",
-      "lamps",
-      "glow",
-      "wire",
-      "orbit",
-      "trace",
-      "pair",
-      "flat"
-     ]
-    },
     {
      "kind": "spectrum",
      "install": "templates_spectrum",
@@ -5558,6 +5542,22 @@
       "trace",
       "pair-left",
       "pair-right",
+      "flat"
+     ]
+    },
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x720_glass_movie/templates/1280x720_glass_movie/",
+     "folder": "1280x720_glass_movie",
+     "names": [
+      "studio",
+      "lamps",
+      "glow",
+      "wire",
+      "orbit",
+      "trace",
+      "pair",
       "flat"
      ]
     }
@@ -6490,9 +6490,26 @@
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TouchCD.zip",
-   "bytes": 32477872,
-   "sha256": "ae60648457dceebaff3fdd39a7dc63c9a671b43db55375dc44647ded16a9b634",
+   "bytes": 41350541,
+   "sha256": "3cc5b96969592df14558392e38e0937ac49fc3e05e7b0b41275557155cbce869",
    "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_g5_TouchCD/",
+     "folder": "1920x1080_g5_TouchCD",
+     "names": [
+      "650G5_McIntoshCD Touch",
+      "651G5_KenwoodCD Touch",
+      "652G5_Kenwood Ver_Touch",
+      "653G5_FreeCD Touch",
+      "654G5_VertereCD Touch",
+      "655G5_Mion_Touch",
+      "656G5_ShanlingCD Touch",
+      "657G5_LG_Thinkya Touch",
+      "658G5_Syitren Touch"
+     ]
+    },
     {
      "kind": "meter",
      "install": "templates",
@@ -6656,8 +6673,8 @@
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TouchVideo.zip",
-   "bytes": 9326694,
-   "sha256": "d577941270df2bf9095f34d8796b1f5c98074fbdf622ccca9ef2cb8736ead9c3",
+   "bytes": 9334787,
+   "sha256": "5ba0e7f3826ced94f29f9c6c20c20f8bb2202433629b0fcad7a53ccf03f6326a",
    "units": [
     {
      "kind": "meter",
@@ -6783,8 +6800,8 @@
    "width": 1920,
    "height": 440,
    "zip": "templates_peppy_spectrum/1920/440/1920x440_Audiowood_Black_Barky.zip",
-   "bytes": 2861041,
-   "sha256": "68e9cb7340883d08d13c2b2111cb394f9c78feeac7d825192cd7266985640f68",
+   "bytes": 3393274,
+   "sha256": "0f28fcf74847cbc9c829f1c82d5b4365bda02c310b70c71ce6af84890625355a",
    "units": [
     {
      "kind": "meter",
