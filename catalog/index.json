@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-15T14:17:58+01:00",
+ "updated": "2026-11-15T15:51:45+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5822,6 +5822,38 @@
    ],
    "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Naim_NAC_332.png",
    "thumb": "catalog/thumbs/1280x800_Naim_NAC_332.jpg"
+  },
+  {
+   "name": "1280x800_Project_HarleyDavidson",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Project_HarleyDavidson.zip",
+   "bytes": 2194543,
+   "sha256": "8fad0800aa61a744ac2177adaddbdf56c94bc15a648cd33941da1b076a407b51",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_Project_HarleyDavidson/templates/1280x800_Project_HarleyDavidson/",
+     "folder": "1280x800_Project_HarleyDavidson",
+     "names": [
+      "1280x800_Project_HarleyDavidson"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_Project_HarleyDavidson/templates_spectrum/1280x800_Project_HarleyDavidson/",
+     "folder": "1280x800_Project_HarleyDavidson",
+     "names": [
+      "1280x800_Project_HarleyDavidson"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Project_HarleyDavidson.png",
+   "thumb": "catalog/thumbs/1280x800_Project_HarleyDavidson.jpg"
   },
   {
    "name": "1280x800_Titanium",

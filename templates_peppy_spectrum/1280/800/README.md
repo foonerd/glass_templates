@@ -204,6 +204,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1280x800_Project_HarleyDavidson
+
+![1280x800_Project_HarleyDavidson](previews/1280x800_Project_HarleyDavidson.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1280x800_Project_HarleyDavidson |
+| Meter Type | circulair |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_Project_HarleyDavidson.zip](1280x800_Project_HarleyDavidson.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1280x800_Titanium
 
 ![1280x800_Titanium](previews/1280x800_Titanium.png)
