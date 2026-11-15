@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-13T18:42:13+01:00",
+ "updated": "2026-11-15T14:17:58+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5660,6 +5660,38 @@
    ],
    "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Audio-Technica-LP120XSV.png",
    "thumb": "catalog/thumbs/1280x800_Audio-Technica-LP120XSV.jpg"
+  },
+  {
+   "name": "1280x800_Audiowood_Black_Barky",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Audiowood_Black_Barky.zip",
+   "bytes": 3664096,
+   "sha256": "05b6f3cd5536694ce89e5eda3d2bbbe0df36f41f57e8b782a50a929aa854deb2",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_Audiowood_Black_Barky/templates/1280x800_Audiowood_Black_Barky/",
+     "folder": "1280x800_Audiowood_Black_Barky",
+     "names": [
+      "1280x800_Audiowood_Black_Barky"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_Audiowood_Black_Barky/templates_spectrum/1280x800_Audiowood_Black_Barky/",
+     "folder": "1280x800_Audiowood_Black_Barky",
+     "names": [
+      "1280x800_Audiowood_Black_Barky"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Audiowood_Black_Barky.png",
+   "thumb": "catalog/thumbs/1280x800_Audiowood_Black_Barky.jpg"
   },
   {
    "name": "1280x800_Aureon",
