@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-15T15:51:45+01:00",
+ "updated": "2026-11-16T22:34:30+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5756,6 +5756,38 @@
    ],
    "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_DD_01.png",
    "thumb": "catalog/thumbs/1280x800_DD_01.jpg"
+  },
+  {
+   "name": "1280x800_DarkSideOfTheMoon",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_DarkSideOfTheMoon.zip",
+   "bytes": 2437838,
+   "sha256": "a98a815aa764d240030e023b044c976a8d28cccbc70f8e48fc28eba509dcf739",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_DarkSideOfTheMoon/templates/1280x800_DarkSideOfTheMoon/",
+     "folder": "1280x800_DarkSideOfTheMoon",
+     "names": [
+      "1280x800_DarkSideOfTheMoon"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_DarkSideOfTheMoon/templates_spectrum/1280x800_DarkSideOfTheMoon/",
+     "folder": "1280x800_DarkSideOfTheMoon",
+     "names": [
+      "1280x800_DarkSideOfTheMoon"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_DarkSideOfTheMoon.png",
+   "thumb": "catalog/thumbs/1280x800_DarkSideOfTheMoon.jpg"
   },
   {
    "name": "1280x800_GM",
