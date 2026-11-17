@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-16T22:41:24+01:00",
+ "updated": "2026-11-17T11:46:02+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5950,6 +5950,38 @@
    ],
    "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Vertical_01.png",
    "thumb": "catalog/thumbs/1280x800_Vertical_01.jpg"
+  },
+  {
+   "name": "1280x800_Yellow_Submarine",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Yellow_Submarine.zip",
+   "bytes": 2254675,
+   "sha256": "1ceec65ad252862da24a09014c0e74ca26a9a7f91dfc43c1328c0db3fb64798a",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_Yellow_Submarine/templates/1280x800_Yellow_Submarine/",
+     "folder": "1280x800_Yellow_Submarine",
+     "names": [
+      "1280x800_Yellow_Submarine"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_Yellow_Submarine/templates_spectrum/1280x800_Yellow_Submarine/",
+     "folder": "1280x800_Yellow_Submarine",
+     "names": [
+      "1280x800_Yellow_Submarine"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Yellow_Submarine.png",
+   "thumb": "catalog/thumbs/1280x800_Yellow_Submarine.jpg"
   },
   {
    "name": "1280x800_dagostino_s250mxv",
