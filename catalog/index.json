@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-17T22:48:57+01:00",
+ "updated": "2026-11-18T11:28:14+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6102,6 +6102,38 @@
    ],
    "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_project_peanuts.png",
    "thumb": "catalog/thumbs/1280x800_project_peanuts.jpg"
+  },
+  {
+   "name": "1280x800_project_rolling_stones",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_project_rolling_stones.zip",
+   "bytes": 2799245,
+   "sha256": "0d5dbc6d548e18a5d62deee5841093849852a67e8900639cf9d6db584264c24c",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_project_rolling_stones/templates/1280x800_project_rolling_stones/",
+     "folder": "1280x800_project_rolling_stones",
+     "names": [
+      "1280x800_project_rolling_stones"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_project_rolling_stones/templates_spectrum/1280x800_project_rolling_stones/",
+     "folder": "1280x800_project_rolling_stones",
+     "names": [
+      "1280x800_project_rolling_stones"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_project_rolling_stones.png",
+   "thumb": "catalog/thumbs/1280x800_project_rolling_stones.jpg"
   },
   {
    "name": "1280x800_south_park_room",
