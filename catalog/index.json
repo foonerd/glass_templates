@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-18T14:37:33+01:00",
+ "updated": "2026-11-18T21:45:09+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6070,6 +6070,38 @@
    ],
    "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_g5_410_ms.png",
    "thumb": "catalog/thumbs/1280x800_g5_410_ms.jpg"
+  },
+  {
+   "name": "1280x800_project_ACDC",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_project_ACDC.zip",
+   "bytes": 2062713,
+   "sha256": "c3d7a56152d82aee01c8e6eb430f54ed9c188b726fb111719682d1b40033ee26",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_project_ACDC/templates/1280x800_project_ACDC/",
+     "folder": "1280x800_project_ACDC",
+     "names": [
+      "1280x800_project_ACDC"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_project_ACDC/templates_spectrum/1280x800_project_ACDC/",
+     "folder": "1280x800_project_ACDC",
+     "names": [
+      "1280x800_project_ACDC"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_project_ACDC.png",
+   "thumb": "catalog/thumbs/1280x800_project_ACDC.jpg"
   },
   {
    "name": "1280x800_project_elvis",

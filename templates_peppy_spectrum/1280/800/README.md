@@ -393,6 +393,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1280x800_project_ACDC
+
+![1280x800_project_ACDC](previews/1280x800_project_ACDC.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1280x800_project_ACDC |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_project_ACDC.zip](1280x800_project_ACDC.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1280x800_project_elvis
 
 ![1280x800_project_elvis](previews/1280x800_project_elvis.png)
