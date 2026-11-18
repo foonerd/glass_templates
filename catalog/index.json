@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-18T11:28:14+01:00",
+ "updated": "2026-11-18T11:34:22+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -6110,8 +6110,8 @@
    "width": 1280,
    "height": 800,
    "zip": "templates_peppy_spectrum/1280/800/1280x800_project_rolling_stones.zip",
-   "bytes": 2799245,
-   "sha256": "0d5dbc6d548e18a5d62deee5841093849852a67e8900639cf9d6db584264c24c",
+   "bytes": 2800085,
+   "sha256": "7adbf7d83b81124cdd5ed50fce179bf1b921ee8aa6c097a7d3a53490ee848970",
    "units": [
     {
      "kind": "meter",
