@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-18T23:05:17+01:00",
+ "updated": "2026-11-19T15:42:58+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5854,6 +5854,38 @@
    ],
    "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Naim_NAC_332.png",
    "thumb": "catalog/thumbs/1280x800_Naim_NAC_332.jpg"
+  },
+  {
+   "name": "1280x800_Pro-Ject_Metallica_M72",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Pro-Ject_Metallica_M72.zip",
+   "bytes": 3214568,
+   "sha256": "bf9707ad1a493d2ea82c220dc9179e0713ef8ac7af22d2006c9c6688e6107bd9",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_Pro-Ject_Metallica_M72/templates/1280x800_Pro-Ject_Metallica_M72/",
+     "folder": "1280x800_Pro-Ject_Metallica_M72",
+     "names": [
+      "1280x800_Pro-Ject_Metallica_M72"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_Pro-Ject_Metallica_M72/templates_spectrum/1280x800_Pro-Ject_Metallica_M72/",
+     "folder": "1280x800_Pro-Ject_Metallica_M72",
+     "names": [
+      "1280x800_Pro-Ject_Metallica_M72"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Pro-Ject_Metallica_M72.png",
+   "thumb": "catalog/thumbs/1280x800_Pro-Ject_Metallica_M72.jpg"
   },
   {
    "name": "1280x800_Project_HarleyDavidson",

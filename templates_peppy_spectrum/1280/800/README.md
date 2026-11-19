@@ -229,6 +229,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1280x800_Pro-Ject_Metallica_M72
+
+![1280x800_Pro-Ject_Metallica_M72](previews/1280x800_Pro-Ject_Metallica_M72.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1280x800_Pro-Ject_Metallica_M72 |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_Pro-Ject_Metallica_M72.zip](1280x800_Pro-Ject_Metallica_M72.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1280x800_Project_HarleyDavidson
 
 ![1280x800_Project_HarleyDavidson](previews/1280x800_Project_HarleyDavidson.png)
