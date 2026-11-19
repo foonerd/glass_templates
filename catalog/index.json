@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-19T15:42:58+01:00",
+ "updated": "2026-11-19T18:43:47+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -7496,6 +7496,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_OL_Calypso.png",
    "thumb": "catalog/thumbs/1920x440_OL_Calypso.jpg"
+  },
+  {
+   "name": "1920x440_Pro-Ject_Metallica_M72",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_Pro-Ject_Metallica_M72.zip",
+   "bytes": 2341788,
+   "sha256": "494d6115c92bc8190e84c4390fed7d83d205065ee34526b8f514e8109c590469",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_Pro-Ject_Metallica_M72/templates/1920x440_Pro-Ject_Metallica_M72/",
+     "folder": "1920x440_Pro-Ject_Metallica_M72",
+     "names": [
+      "1920x440_Pro-Ject_Metallica_M72"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_Pro-Ject_Metallica_M72/templates_spectrum/1920x440_Pro-Ject_Metallica_M72/",
+     "folder": "1920x440_Pro-Ject_Metallica_M72",
+     "names": [
+      "1920x440_Pro-Ject_Metallica_M72"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Pro-Ject_Metallica_M72.png",
+   "thumb": "catalog/thumbs/1920x440_Pro-Ject_Metallica_M72.jpg"
   },
   {
    "name": "1920x440_Pro-ject_Metallica_Blue",
