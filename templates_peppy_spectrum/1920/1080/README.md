@@ -425,7 +425,7 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 | Property | Value |
 |----------|-------|
-| Template Pack | Yes (6 templates) |
+| Template Pack | Yes (9 templates) |
 | Meter Type | linear |
 | Extended Config | Yes |
 | Spectrum | Yes |
@@ -434,11 +434,14 @@ Or press Install on the Catalog tab of the Glass Manager.
 **Included Meters:**
 
 - 900G5_Touch Video1
-- 901G5_Touch Video2
-- 902G5_Touch Video3
-- 903G5_Touch Video4
+- 901G5_Grandioso Video
+- 902G5_SonyK770 Video
+- 903G5_Touch Video3
 - 904G5_Touch Video5
-- 905G5_Touch Video6
+- 905G5_Touch Video @nerd
+- 906G5_Otari Video
+- 907G5_ShanlingCD Video
+- 908G5_Teufel Video
 
 **Download:** [1920x1080_g5_TouchVideo.zip](1920x1080_g5_TouchVideo.zip)
 

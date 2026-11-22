@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-19T18:43:47+01:00",
+ "updated": "2026-11-22T15:20:49+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -7025,8 +7025,8 @@
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TouchVideo.zip",
-   "bytes": 9334787,
-   "sha256": "5ba0e7f3826ced94f29f9c6c20c20f8bb2202433629b0fcad7a53ccf03f6326a",
+   "bytes": 19670579,
+   "sha256": "3e8a95f50fa199dfec089a850a69733db97343dc46bb4f4f82eabac03249053a",
    "units": [
     {
      "kind": "meter",
@@ -7035,11 +7035,14 @@
      "folder": "1920x1080_g5_TouchVideo",
      "names": [
       "900G5_Touch Video1",
-      "901G5_Touch Video2",
-      "902G5_Touch Video3",
-      "903G5_Touch Video4",
+      "901G5_Grandioso Video",
+      "902G5_SonyK770 Video",
+      "903G5_Touch Video3",
       "904G5_Touch Video5",
-      "905G5_Touch Video6"
+      "905G5_Touch Video @nerd",
+      "906G5_Otari Video",
+      "907G5_ShanlingCD Video",
+      "908G5_Teufel Video"
      ]
     },
     {
@@ -7050,15 +7053,15 @@
      "names": [
       "Video-left",
       "Video-right",
-      "Video2-left",
-      "Video2-right",
-      "Video3-left",
-      "Video3-right",
-      "Video4-left",
-      "Video4-right",
       "Video5-left",
       "Video5-right",
-      "Video6"
+      "Video6",
+      "trace",
+      "Gran",
+      "Cas3",
+      "OTA",
+      "MCIN7",
+      "Teufel"
      ]
     }
    ],
