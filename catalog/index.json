@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-12T17:48:49+01:00",
+ "updated": "2026-11-19T18:43:47+01:00",
  "base": "https://raw.githubusercontent.com/foonerd/glass_templates/main/",
  "templates": [
   {
@@ -5662,6 +5662,38 @@
    "thumb": "catalog/thumbs/1280x800_Audio-Technica-LP120XSV.jpg"
   },
   {
+   "name": "1280x800_Audiowood_Black_Barky",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Audiowood_Black_Barky.zip",
+   "bytes": 3664096,
+   "sha256": "05b6f3cd5536694ce89e5eda3d2bbbe0df36f41f57e8b782a50a929aa854deb2",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_Audiowood_Black_Barky/templates/1280x800_Audiowood_Black_Barky/",
+     "folder": "1280x800_Audiowood_Black_Barky",
+     "names": [
+      "1280x800_Audiowood_Black_Barky"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_Audiowood_Black_Barky/templates_spectrum/1280x800_Audiowood_Black_Barky/",
+     "folder": "1280x800_Audiowood_Black_Barky",
+     "names": [
+      "1280x800_Audiowood_Black_Barky"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Audiowood_Black_Barky.png",
+   "thumb": "catalog/thumbs/1280x800_Audiowood_Black_Barky.jpg"
+  },
+  {
    "name": "1280x800_Aureon",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
@@ -5724,6 +5756,38 @@
    ],
    "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_DD_01.png",
    "thumb": "catalog/thumbs/1280x800_DD_01.jpg"
+  },
+  {
+   "name": "1280x800_DarkSideOfTheMoon",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_DarkSideOfTheMoon.zip",
+   "bytes": 2434912,
+   "sha256": "8dce9aa23a0d67b98d1bc3fcfce7ad9cfdf1c222f87d411dbfd7fafa2677599b",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_DarkSideOfTheMoon/templates/1280x800_DarkSideOfTheMoon/",
+     "folder": "1280x800_DarkSideOfTheMoon",
+     "names": [
+      "1280x800_DarkSideOfTheMoon"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_DarkSideOfTheMoon/templates_spectrum/1280x800_DarkSideOfTheMoon/",
+     "folder": "1280x800_DarkSideOfTheMoon",
+     "names": [
+      "1280x800_DarkSideOfTheMoon"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_DarkSideOfTheMoon.png",
+   "thumb": "catalog/thumbs/1280x800_DarkSideOfTheMoon.jpg"
   },
   {
    "name": "1280x800_GM",
@@ -5792,6 +5856,70 @@
    "thumb": "catalog/thumbs/1280x800_Naim_NAC_332.jpg"
   },
   {
+   "name": "1280x800_Pro-Ject_Metallica_M72",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Pro-Ject_Metallica_M72.zip",
+   "bytes": 3214568,
+   "sha256": "bf9707ad1a493d2ea82c220dc9179e0713ef8ac7af22d2006c9c6688e6107bd9",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_Pro-Ject_Metallica_M72/templates/1280x800_Pro-Ject_Metallica_M72/",
+     "folder": "1280x800_Pro-Ject_Metallica_M72",
+     "names": [
+      "1280x800_Pro-Ject_Metallica_M72"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_Pro-Ject_Metallica_M72/templates_spectrum/1280x800_Pro-Ject_Metallica_M72/",
+     "folder": "1280x800_Pro-Ject_Metallica_M72",
+     "names": [
+      "1280x800_Pro-Ject_Metallica_M72"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Pro-Ject_Metallica_M72.png",
+   "thumb": "catalog/thumbs/1280x800_Pro-Ject_Metallica_M72.jpg"
+  },
+  {
+   "name": "1280x800_Project_HarleyDavidson",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Project_HarleyDavidson.zip",
+   "bytes": 2194543,
+   "sha256": "8fad0800aa61a744ac2177adaddbdf56c94bc15a648cd33941da1b076a407b51",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_Project_HarleyDavidson/templates/1280x800_Project_HarleyDavidson/",
+     "folder": "1280x800_Project_HarleyDavidson",
+     "names": [
+      "1280x800_Project_HarleyDavidson"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_Project_HarleyDavidson/templates_spectrum/1280x800_Project_HarleyDavidson/",
+     "folder": "1280x800_Project_HarleyDavidson",
+     "names": [
+      "1280x800_Project_HarleyDavidson"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Project_HarleyDavidson.png",
+   "thumb": "catalog/thumbs/1280x800_Project_HarleyDavidson.jpg"
+  },
+  {
    "name": "1280x800_Titanium",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
@@ -5854,6 +5982,38 @@
    ],
    "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Vertical_01.png",
    "thumb": "catalog/thumbs/1280x800_Vertical_01.jpg"
+  },
+  {
+   "name": "1280x800_Yellow_Submarine",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_Yellow_Submarine.zip",
+   "bytes": 2254675,
+   "sha256": "1ceec65ad252862da24a09014c0e74ca26a9a7f91dfc43c1328c0db3fb64798a",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_Yellow_Submarine/templates/1280x800_Yellow_Submarine/",
+     "folder": "1280x800_Yellow_Submarine",
+     "names": [
+      "1280x800_Yellow_Submarine"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_Yellow_Submarine/templates_spectrum/1280x800_Yellow_Submarine/",
+     "folder": "1280x800_Yellow_Submarine",
+     "names": [
+      "1280x800_Yellow_Submarine"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_Yellow_Submarine.png",
+   "thumb": "catalog/thumbs/1280x800_Yellow_Submarine.jpg"
   },
   {
    "name": "1280x800_dagostino_s250mxv",
@@ -5942,6 +6102,134 @@
    ],
    "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_g5_410_ms.png",
    "thumb": "catalog/thumbs/1280x800_g5_410_ms.jpg"
+  },
+  {
+   "name": "1280x800_project_ACDC",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_project_ACDC.zip",
+   "bytes": 2174443,
+   "sha256": "f22ecf6d713d8f65a5a72bb031ad4b779cb6044589f668f78ec3f038286f421a",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_project_ACDC/templates/1280x800_project_ACDC/",
+     "folder": "1280x800_project_ACDC",
+     "names": [
+      "1280x800_project_ACDC"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_project_ACDC/templates_spectrum/1280x800_project_ACDC/",
+     "folder": "1280x800_project_ACDC",
+     "names": [
+      "1280x800_project_ACDC"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_project_ACDC.png",
+   "thumb": "catalog/thumbs/1280x800_project_ACDC.jpg"
+  },
+  {
+   "name": "1280x800_project_elvis",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_project_elvis.zip",
+   "bytes": 1599947,
+   "sha256": "1efb3785dbd1058e67b90ff7aa068d6ab05e6e4c38cd5241b5178341326a68ed",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_project_elvis/templates/1280x800_project_elvis/",
+     "folder": "1280x800_project_elvis",
+     "names": [
+      "1280x800_project_elvis"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_project_elvis/templates_spectrum/1280x800_project_elvis/",
+     "folder": "1280x800_project_elvis",
+     "names": [
+      "1280x800_project_elvis"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_project_elvis.png",
+   "thumb": "catalog/thumbs/1280x800_project_elvis.jpg"
+  },
+  {
+   "name": "1280x800_project_peanuts",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_project_peanuts.zip",
+   "bytes": 2262251,
+   "sha256": "6dd8fea0ae808caac423b5d42f026626e89ee4adfdff6fbb392de0b8d3520303",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_project_peanuts/templates/1280x800_project_peanuts/",
+     "folder": "1280x800_project_peanuts",
+     "names": [
+      "1280x800_project_peanuts"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_project_peanuts/templates_spectrum/1280x800_project_peanuts/",
+     "folder": "1280x800_project_peanuts",
+     "names": [
+      "1280x800_project_peanuts"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_project_peanuts.png",
+   "thumb": "catalog/thumbs/1280x800_project_peanuts.jpg"
+  },
+  {
+   "name": "1280x800_project_rolling_stones",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1280,
+   "height": 800,
+   "zip": "templates_peppy_spectrum/1280/800/1280x800_project_rolling_stones.zip",
+   "bytes": 2800085,
+   "sha256": "7adbf7d83b81124cdd5ed50fce179bf1b921ee8aa6c097a7d3a53490ee848970",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1280x800_project_rolling_stones/templates/1280x800_project_rolling_stones/",
+     "folder": "1280x800_project_rolling_stones",
+     "names": [
+      "1280x800_project_rolling_stones"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1280x800_project_rolling_stones/templates_spectrum/1280x800_project_rolling_stones/",
+     "folder": "1280x800_project_rolling_stones",
+     "names": [
+      "1280x800_project_rolling_stones"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1280/800/previews/1280x800_project_rolling_stones.png",
+   "thumb": "catalog/thumbs/1280x800_project_rolling_stones.jpg"
   },
   {
    "name": "1280x800_south_park_room",
@@ -6242,6 +6530,38 @@
    "thumb": "catalog/thumbs/1920x1080_20g5.jpg"
   },
   {
+   "name": "1920x1080_Audiowood_Black_Barky",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_Audiowood_Black_Barky.zip",
+   "bytes": 6314531,
+   "sha256": "f0f300b72d9de72566d2fdac2079e1c5aed47e0a9a404d8ce9e2202b144661e1",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_Audiowood_Black_Barky/templates/1920x1080_Audiowood_Black_Barky/",
+     "folder": "1920x1080_Audiowood_Black_Barky",
+     "names": [
+      "1920x1080_Audiowood_Black_Barky"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_Audiowood_Black_Barky/templates_spectrum/1920x1080_Audiowood_Black_Barky/",
+     "folder": "1920x1080_Audiowood_Black_Barky",
+     "names": [
+      "1920x1080_Audiowood_Black_Barky"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_Audiowood_Black_Barky.png",
+   "thumb": "catalog/thumbs/1920x1080_Audiowood_Black_Barky.jpg"
+  },
+  {
    "name": "1920x1080_NAD_Monitor",
    "category": "templates_peppy_spectrum",
    "kind": "meter+spectrum",
@@ -6336,6 +6656,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_Project_VTER.png",
    "thumb": "catalog/thumbs/1920x1080_Project_VTER.jpg"
+  },
+  {
+   "name": "1920x1080_Vertical_01",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 1080,
+   "zip": "templates_peppy_spectrum/1920/1080/1920x1080_Vertical_01.zip",
+   "bytes": 5554208,
+   "sha256": "1c1085710af485df29c835da61fc5d12ac686120cad6ea7799aa1f814bcee14c",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x1080_Vertical_01/templates/1920x1080_Vertical_01/",
+     "folder": "1920x1080_Vertical_01",
+     "names": [
+      "1920x1080_Vertical_01"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x1080_Vertical_01/templates_spectrum/1920x1080_Vertical_01/",
+     "folder": "1920x1080_Vertical_01",
+     "names": [
+      "1920x1080_Vertical_01"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/1080/previews/1920x1080_Vertical_01.png",
+   "thumb": "catalog/thumbs/1920x1080_Vertical_01.jpg"
   },
   {
    "name": "1920x1080_cd_changer",
@@ -6673,8 +7025,8 @@
    "width": 1920,
    "height": 1080,
    "zip": "templates_peppy_spectrum/1920/1080/1920x1080_g5_TouchVideo.zip",
-   "bytes": 9326694,
-   "sha256": "d577941270df2bf9095f34d8796b1f5c98074fbdf622ccca9ef2cb8736ead9c3",
+   "bytes": 9334787,
+   "sha256": "5ba0e7f3826ced94f29f9c6c20c20f8bb2202433629b0fcad7a53ccf03f6326a",
    "units": [
     {
      "kind": "meter",
@@ -7144,6 +7496,38 @@
    ],
    "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_OL_Calypso.png",
    "thumb": "catalog/thumbs/1920x440_OL_Calypso.jpg"
+  },
+  {
+   "name": "1920x440_Pro-Ject_Metallica_M72",
+   "category": "templates_peppy_spectrum",
+   "kind": "meter+spectrum",
+   "width": 1920,
+   "height": 440,
+   "zip": "templates_peppy_spectrum/1920/440/1920x440_Pro-Ject_Metallica_M72.zip",
+   "bytes": 2341788,
+   "sha256": "494d6115c92bc8190e84c4390fed7d83d205065ee34526b8f514e8109c590469",
+   "units": [
+    {
+     "kind": "meter",
+     "install": "templates",
+     "from": "1920x440_Pro-Ject_Metallica_M72/templates/1920x440_Pro-Ject_Metallica_M72/",
+     "folder": "1920x440_Pro-Ject_Metallica_M72",
+     "names": [
+      "1920x440_Pro-Ject_Metallica_M72"
+     ]
+    },
+    {
+     "kind": "spectrum",
+     "install": "templates_spectrum",
+     "from": "1920x440_Pro-Ject_Metallica_M72/templates_spectrum/1920x440_Pro-Ject_Metallica_M72/",
+     "folder": "1920x440_Pro-Ject_Metallica_M72",
+     "names": [
+      "1920x440_Pro-Ject_Metallica_M72"
+     ]
+    }
+   ],
+   "preview": "templates_peppy_spectrum/1920/440/previews/1920x440_Pro-Ject_Metallica_M72.png",
+   "thumb": "catalog/thumbs/1920x440_Pro-Ject_Metallica_M72.jpg"
   },
   {
    "name": "1920x440_Pro-ject_Metallica_Blue",

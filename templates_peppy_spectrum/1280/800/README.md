@@ -79,6 +79,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1280x800_Audiowood_Black_Barky
+
+![1280x800_Audiowood_Black_Barky](previews/1280x800_Audiowood_Black_Barky.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1280x800_Audiowood_Black_Barky |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_Audiowood_Black_Barky.zip](1280x800_Audiowood_Black_Barky.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1280x800_Aureon
 
 ![1280x800_Aureon](previews/1280x800_Aureon.png)
@@ -119,6 +144,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 **Download:** [1280x800_DD_01.zip](1280x800_DD_01.zip)
 
 **Uses the spectrum analyser, interactive buttons.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1280x800_DarkSideOfTheMoon
+
+![1280x800_DarkSideOfTheMoon](previews/1280x800_DarkSideOfTheMoon.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1280x800_DarkSideOfTheMoon |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_DarkSideOfTheMoon.zip](1280x800_DarkSideOfTheMoon.zip)
+
+**Uses the spectrum analyser.**
 
 **Install (both required):**
 1. Extract the zip file
@@ -179,6 +229,56 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1280x800_Pro-Ject_Metallica_M72
+
+![1280x800_Pro-Ject_Metallica_M72](previews/1280x800_Pro-Ject_Metallica_M72.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1280x800_Pro-Ject_Metallica_M72 |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_Pro-Ject_Metallica_M72.zip](1280x800_Pro-Ject_Metallica_M72.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1280x800_Project_HarleyDavidson
+
+![1280x800_Project_HarleyDavidson](previews/1280x800_Project_HarleyDavidson.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1280x800_Project_HarleyDavidson |
+| Meter Type | circulair |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_Project_HarleyDavidson.zip](1280x800_Project_HarleyDavidson.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1280x800_Titanium
 
 ![1280x800_Titanium](previews/1280x800_Titanium.png)
@@ -217,6 +317,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 | Album Art | Yes |
 
 **Download:** [1280x800_Vertical_01.zip](1280x800_Vertical_01.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1280x800_Yellow_Submarine
+
+![1280x800_Yellow_Submarine](previews/1280x800_Yellow_Submarine.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1280x800_Yellow_Submarine |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_Yellow_Submarine.zip](1280x800_Yellow_Submarine.zip)
 
 **Uses the spectrum analyser.**
 
@@ -283,6 +408,106 @@ Or press Install on the Catalog tab of the Glass Manager.
 - 113G5_Old Spectrum S+M
 
 **Download:** [1280x800_g5_410_ms.zip](1280x800_g5_410_ms.zip)
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1280x800_project_ACDC
+
+![1280x800_project_ACDC](previews/1280x800_project_ACDC.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1280x800_project_ACDC |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_project_ACDC.zip](1280x800_project_ACDC.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1280x800_project_elvis
+
+![1280x800_project_elvis](previews/1280x800_project_elvis.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1280x800_project_elvis |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_project_elvis.zip](1280x800_project_elvis.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1280x800_project_peanuts
+
+![1280x800_project_peanuts](previews/1280x800_project_peanuts.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1280x800_project_peanuts |
+| Meter Type | linear |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_project_peanuts.zip](1280x800_project_peanuts.zip)
+
+**Uses the spectrum analyser.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
+## 1280x800_project_rolling_stones
+
+![1280x800_project_rolling_stones](previews/1280x800_project_rolling_stones.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1280x800_project_rolling_stones |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1280x800_project_rolling_stones.zip](1280x800_project_rolling_stones.zip)
+
+**Uses the spectrum analyser.**
 
 **Install (both required):**
 1. Extract the zip file

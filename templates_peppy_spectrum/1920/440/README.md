@@ -294,6 +294,31 @@ Or press Install on the Catalog tab of the Glass Manager.
 
 ---
 
+## 1920x440_Pro-Ject_Metallica_M72
+
+![1920x440_Pro-Ject_Metallica_M72](previews/1920x440_Pro-Ject_Metallica_M72.png)
+
+| Property | Value |
+|----------|-------|
+| Meter Name | 1920x440_Pro-Ject_Metallica_M72 |
+| Meter Type | circular |
+| Extended Config | Yes |
+| Spectrum | Yes |
+| Album Art | Yes |
+
+**Download:** [1920x440_Pro-Ject_Metallica_M72.zip](1920x440_Pro-Ject_Metallica_M72.zip)
+
+**Uses the spectrum analyser, Glass-only meter keys.**
+
+**Install (both required):**
+1. Extract the zip file
+2. Copy `templates/` contents to `/data/INTERNAL/glass/templates/`
+3. Copy `templates_spectrum/` contents to `/data/INTERNAL/glass/templates_spectrum/`
+
+Or press Install on the Catalog tab of the Glass Manager.
+
+---
+
 ## 1920x440_Pro-ject_Metallica_Blue
 
 ![1920x440_Pro-ject_Metallica_Blue](previews/1920x440_Pro-ject_Metallica_Blue.png)
